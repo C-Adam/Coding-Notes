@@ -37,3 +37,13 @@
 
 ### CSS Box Model
 ![alt text](CSS_Box_Model.PNG)
+
+### Use *{} to modify all elements on a page
+```CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+```
+
