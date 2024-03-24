@@ -43,7 +43,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /*Always use border-box because it allows the width to be unaffected by padding*/
 }
 ```
 
