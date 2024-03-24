@@ -34,3 +34,6 @@
 
 ### Id's can only be used once (another id cannot have the same name); Use classes for multiple objects and id's for single objects
 
+
+### CSS Box Model
+![alt text](CSS_Box_Model.PNG)
