@@ -69,4 +69,11 @@ p {
 }
 ```
 
+### Use a{} to modify all hyperlinks
+```CSS
+a {
+    background-color: yellowgreen;
+}
+```
+
 
