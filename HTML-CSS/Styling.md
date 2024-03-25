@@ -75,7 +75,10 @@ a {
     background-color: yellowgreen;
 }
 ```
-### Selecting child classes/ids/objects 
+### Selecting child classes/ids/objects (call the parent (#your_name) then the child (h2))
 ```CSS
- 
+#your_name h2 {
+    color: olivedrab;
+}
+``` 
 
