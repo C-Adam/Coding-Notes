@@ -47,3 +47,19 @@
 }
 ```
 
+### Use .classname to access classes in css
+```CSS
+.first {
+    color: blue;
+}
+```
+
+### Use #idname to access id's
+```CSS
+#your_name {
+    background-color: orange;
+    border: 5px solid #444;
+}
+```
+
+
