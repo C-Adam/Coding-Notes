@@ -62,4 +62,11 @@
 }
 ```
 
+### Use p{} to mofidy all paragraph elements on the page
+```CSS
+p {
+    margin-bottom: 20px;
+}
+```
+
 
