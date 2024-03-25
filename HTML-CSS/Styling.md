@@ -82,3 +82,5 @@ a {
 }
 ``` 
 
+### console.log() to print in the console.
+
