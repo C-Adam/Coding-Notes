@@ -104,4 +104,6 @@ console.log(String(0)) //Would print "0"
 ### === vs ==
 ```JavaScript
  18 === 18 // --> true
- 18 == "18" // --> false
+ 18 === "18" // --> false
+ 18 == "18" // --> true
+ //== does type coercion
