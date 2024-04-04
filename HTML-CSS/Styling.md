@@ -100,3 +100,8 @@ console.log(my_number + 1) //Would print 11
 console.log(Number(my_number) + 1) //Would print 2
 console.log(String(0)) //Would print "0"
 ```
+
+### === vs ==
+```JavaScript
+ 18 === 18 // --> true
+ 18 == "18" // --> false
