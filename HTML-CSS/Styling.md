@@ -84,3 +84,19 @@ a {
 
 ### console.log() to print in the console.
 
+### use const when variable not supposed to change and let when it will change
+
+### Template Literals
+```JavaScript
+//Encase string with ` ` to use template literals
+//Use ${variable name} to insert variables in the string
+const adam_new = `I'm from ${country}, which is in ${contient}`
+```
+
+### Type conversion
+```JavaScript
+const my_number = "1"
+console.log(my_number + 1) //Would print 11
+console.log(Number(my_number) + 1) //Would print 2
+console.log(String(0)) //Would print "0"
+```
