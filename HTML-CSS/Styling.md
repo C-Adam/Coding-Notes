@@ -111,3 +111,10 @@ console.log(String(0)) //Would print "0"
 ### Use prompt to get user input (appears in a similar box to alert)
 ```JavaScript
 const favorite_number = Number(prompt(`What's your favorite number?`))
+
+if (favorite_number > 1){
+    console.log(`Is greater than 1`)
+}else{
+    console.log(`Is not greater than 1`)
+}
+```
