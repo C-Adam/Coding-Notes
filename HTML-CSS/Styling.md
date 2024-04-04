@@ -123,3 +123,5 @@ if (favorite_number > 1){
 ```JavaScript
 // && --> and
 // || --> or
+// !{boolean} --> not 
+//
