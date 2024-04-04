@@ -107,3 +107,5 @@ console.log(String(0)) //Would print "0"
  18 === "18" // --> false
  18 == "18" // --> true
  //== does type coercion
+```
+### Use prompt to get user input (appears in a similar box to alert)
