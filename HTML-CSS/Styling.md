@@ -109,3 +109,5 @@ console.log(String(0)) //Would print "0"
  //== does type coercion
 ```
 ### Use prompt to get user input (appears in a similar box to alert)
+```JavaScript
+const favorite_number = Number(prompt(`What's your favorite number?`))
