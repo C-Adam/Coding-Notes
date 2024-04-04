@@ -118,3 +118,8 @@ if (favorite_number > 1){
     console.log(`Is not greater than 1`)
 }
 ```
+
+### Logical operators
+```JavaScript
+// && --> and
+// || --> or
