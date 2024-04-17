@@ -153,3 +153,10 @@ switch (day) {
         break;
 }
 ```
+
+### Ternary Operator
+```JavaScript
+const age = 24
+
+age >= 18 ? console.log("Adult") : console.log("Child")
+```
