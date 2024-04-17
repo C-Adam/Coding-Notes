@@ -125,3 +125,31 @@ if (favorite_number > 1){
 // || --> or
 // !{boolean} --> not 
 ```
+
+### Switch Statement, another form of if/else statement
+```JavaScript
+const day = "Monday";
+
+switch (day) {
+    case "Monday":
+        console.log("The day is Monday");
+        break;
+    case "Tuesday":
+        console.log("The day is Tuesday");
+        break;
+    case "Wednesday":
+    case "Thursday":
+        console.log("The day is either Wednesday or Thursday");
+        break;
+    case "Friday":
+        console.log("The day is Friday");
+        break;
+    case "Saturday":
+    case "Sunday":
+        console.log("It is either Saturday or Sunday");
+        break;
+    default:
+        console.log("No day of the week was entered!");
+        break;
+}
+```
