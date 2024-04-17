@@ -154,7 +154,7 @@ switch (day) {
 }
 ```
 
-### Ternary Operator
+### Ternary Operator - For quick if else checking, use ? after the 
 ```JavaScript
 const age = 24
 
