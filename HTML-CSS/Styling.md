@@ -163,9 +163,10 @@ age >= 18 ? console.log("Adult") : console.log("Child")
 
 ### Array Methods:
 ```JavaScript
-array.push(item) //adds the item next to the last index in the array AND returns the new length of the array if stored in a variable
-array.unshift(item) //adds the item to the first index in the array AND returns the new length of the array if stored in a variable
-array.shift(item) //removes the first index of the array and returns the value if stored in a variable
-array.pop() //removes the last index of the array and returns the value if stored in a variable
-array.indexOf()
+array.push(item) //adds the item next to the last index in the array AND returns the new length of the array if stored in a variable.
+array.unshift(item) //adds the item to the first index in the array AND returns the new length of the array if stored in a variable.
+array.shift(item) //removes the first index of the array and returns the value if stored in a variable.
+array.pop() //removes the last index of the array and returns the value if stored in a variable.
+array.indexOf(item) //returns index of the item.
+array.includes(item) //returns a boolean whether the item was found within the array.
 ```
