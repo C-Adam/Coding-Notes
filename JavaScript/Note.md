@@ -87,3 +87,6 @@ array.pop() //removes the last index of the array and returns the value if store
 array.indexOf(item) //returns index of the item.
 array.includes(item) //returns a boolean whether the item was found within the array.
 ```
+
+### Dictionary:
+```JavaScript
