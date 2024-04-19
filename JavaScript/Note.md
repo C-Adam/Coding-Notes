@@ -90,3 +90,8 @@ array.includes(item) //returns a boolean whether the item was found within the a
 
 ### Dictionary:
 ```JavaScript
+const adam = {
+    first_name: "Adam",
+    last_name: "Cooper",
+}
+```
