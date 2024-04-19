@@ -1,5 +1,6 @@
-### console.log() to print in the console.
-
+```JavaScript
+console.log() //print
+```
 ### use const when variable not supposed to change and let when it will change
 
 ### Template Literals
