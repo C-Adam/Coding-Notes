@@ -161,4 +161,4 @@ const age = 24
 age >= 18 ? console.log("Adult") : console.log("Child")
 ```
 
-### array.push()
+### array.push(item) is basically table.add
