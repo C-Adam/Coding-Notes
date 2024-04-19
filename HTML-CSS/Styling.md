@@ -161,6 +161,9 @@ const age = 24
 age >= 18 ? console.log("Adult") : console.log("Child")
 ```
 
-### array.push(item) adds the item next to the last index in the array AND returns the new length of the array if stored in a variable
-
-### array.unshift(item) adds the item to the first index in the array AND returns the new length of the array if stored in a variable
+### Array Methods:
+```JavaScript
+array.push(item) //adds the item next to the last index in the array AND returns the new length of the array if stored in a variable
+array.unshift(item) //adds the item to the first index in the array AND returns the new length of the array if stored in a variable
+array.pop() //removes the last index of the array
+```
