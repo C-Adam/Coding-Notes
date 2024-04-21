@@ -1,4 +1,5 @@
 ## Always use strict mode, it helps to catch errors
+
 ```JavaScript
 "use strict";
 ```
@@ -6,9 +7,11 @@
 ```JavaScript
 console.log() //print
 ```
+
 ### use const when variable not supposed to change and let when it will change
 
 ### Template Literals
+
 ```JavaScript
 //Encase string with ` ` to use template literals
 //Use ${variable name} to insert variables in the string
@@ -16,6 +19,7 @@ const adam_new = `I'm from ${country}, which is in ${contient}`
 ```
 
 ### Type conversion
+
 ```JavaScript
 const my_number = "1"
 console.log(my_number + 1) //Would print 11
@@ -24,13 +28,16 @@ console.log(String(0)) //Would print "0"
 ```
 
 ### === vs ==
+
 ```JavaScript
  18 === 18 // --> true
  18 === "18" // --> false
  18 == "18" // --> true
  //== does type coercion
 ```
+
 ### Use prompt to get user input (appears in a similar box to alert)
+
 ```JavaScript
 const favorite_number = Number(prompt(`What's your favorite number?`))
 
@@ -42,13 +49,15 @@ if (favorite_number > 1){
 ```
 
 ### Logical operators
+
 ```JavaScript
 // && --> and
 // || --> or
-// !{boolean} --> not 
+// !{boolean} --> not
 ```
 
 ### Switch Statement, another form of if/else statement
+
 ```JavaScript
 const day = "Monday";
 
@@ -77,6 +86,7 @@ switch (day) {
 ```
 
 ### Ternary Operator - For quick if else checking, use ? after the expression then [code to run if true] : [code to run if false]
+
 ```JavaScript
 const age = 24
 
@@ -84,6 +94,7 @@ age >= 18 ? console.log("Adult") : console.log("Child")
 ```
 
 ### Array Methods:
+
 ```JavaScript
 array.push(item) //adds the item next to the last index in the array AND returns the new length of the array if stored in a variable.
 array.unshift(item) //adds the item to the first index in the array AND returns the new length of the array if stored in a variable.
@@ -94,9 +105,12 @@ array.includes(item) //returns a boolean whether the item was found within the a
 ```
 
 ### Dictionary:
+
 ```JavaScript
 const adam = {
     first_name: "Adam",
     last_name: "Cooper",
 }
 ```
+
+### To
