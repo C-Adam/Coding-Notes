@@ -1,3 +1,8 @@
+## Always use strict mode, it helps to catch errors
+```JavaScript
+"use strict";
+```
+
 ```JavaScript
 console.log() //print
 ```
