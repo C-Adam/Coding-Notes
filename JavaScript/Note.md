@@ -113,4 +113,8 @@ const adam = {
 }
 ```
 
-### To
+### To reference HTML elements via JS, use:
+
+```JavaScript
+document.querySelector(".class"/"#id")
+```
