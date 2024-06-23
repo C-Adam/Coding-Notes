@@ -118,3 +118,7 @@ const adam = {
 ```JavaScript
 document.querySelector(".class"/"#id")
 ```
+
+### Scoping
+
+![](JS_Scroping.png)
