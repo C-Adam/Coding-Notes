@@ -121,4 +121,4 @@ document.querySelector(".class"/"#id")
 
 ### Scoping
 
-![Presentation explaining JavaScript Scopes](JS_Scoping.png)
+![Presentation explaining JavaScript Scopes (See JS_Scoping.PNG)](JS_Scoping.png)
