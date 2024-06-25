@@ -1,11 +1,14 @@
 ### All content goes in the body.
+
 ```Html
 <body>
     <h1>This is a test</h1>
     <p>Another Test</p>
 </body>
 ```
+
 ### All settings, title, link, etc goes in the head:
+
 ```Html
 <head>
     <meta charset="UTF-8">
@@ -16,6 +19,7 @@
 ```
 
 ### Use div to create empty boxes that contain content
+
 ```Html
 <div>
     <h1>Will be shown in an invisible box that can be manipulated</h1>
@@ -23,6 +27,7 @@
 ```
 
 ### Use form to create an empty box that takes in an input
+
 ```Html
 <form id="your_name">
     <h2>Your name here</h2>
@@ -34,11 +39,12 @@
 
 ### Id's can only be used once (another id cannot have the same name); Use classes for multiple objects and id's for single objects
 
-
 ### CSS Box Model
+
 ![alt text](CSS_Box_Model.PNG)
 
-### Use *{} to modify all elements on a page
+### Use \*{} to modify all elements on a page
+
 ```CSS
 * {
     margin: 0;
@@ -48,6 +54,7 @@
 ```
 
 ### Use .classname to access classes in css
+
 ```CSS
 .first {
     color: blue;
@@ -55,6 +62,7 @@
 ```
 
 ### Use #idname to access id's
+
 ```CSS
 #your_name {
     background-color: orange;
@@ -63,6 +71,7 @@
 ```
 
 ### Use p{} to mofidy all paragraph elements on the page
+
 ```CSS
 p {
     margin-bottom: 20px;
@@ -70,14 +79,19 @@ p {
 ```
 
 ### Use a{} to modify all hyperlinks
+
 ```CSS
 a {
     background-color: yellowgreen;
 }
 ```
+
 ### Selecting child classes/ids/objects (call the parent (#your_name) then the child (h2))
+
 ```CSS
 #your_name h2 {
     color: olivedrab;
 }
 ```
+
+### Use the w3c validator website to check html code for errors
