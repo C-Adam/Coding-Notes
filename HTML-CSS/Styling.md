@@ -108,3 +108,9 @@ a {
 ```Html
 <abbr title="Adam Paul Cooper">APC</abbr>
 ```
+
+## For italics and screen readability, when adding an address/location, use the following:
+
+```Html
+<address>High Point Estates, Ventura Avenue, Nassau, The Bahamas</address>
+```
