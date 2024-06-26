@@ -13,7 +13,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style.css"> <!--stylesheet is for the css settings created for the web page.-->
     <title>Learning HTML & CSS</title>
 </head>
 ```
