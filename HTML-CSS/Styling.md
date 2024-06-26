@@ -1,4 +1,4 @@
-### All content goes in the body.
+## All content goes in the body.
 
 ```Html
 <body>
@@ -7,7 +7,7 @@
 </body>
 ```
 
-### All settings, title, link, etc goes in the head:
+## All settings, title, link, etc goes in the head:
 
 ```Html
 <head>
@@ -18,7 +18,7 @@
 </head>
 ```
 
-### Use div to create empty boxes that contain content
+## Use div to create empty boxes that contain content
 
 ```Html
 <div>
@@ -26,7 +26,7 @@
 </div>
 ```
 
-### Use form to create an empty box that takes in an input
+## Use form to create an empty box that takes in an input
 
 ```Html
 <form id="your_name">
@@ -37,13 +37,13 @@
 </form>
 ```
 
-### Id's can only be used once (another id cannot have the same name); Use classes for multiple objects and id's for single objects
+## Id's can only be used once (another id cannot have the same name); Use classes for multiple objects and id's for single objects
 
-### CSS Box Model
+## CSS Box Model
 
 ![alt text](CSS_Box_Model.PNG)
 
-### Use \*{} to modify all elements on a page
+## Use \*{} to modify all elements on a page
 
 ```CSS
 * {
@@ -53,7 +53,7 @@
 }
 ```
 
-### Use .classname to access classes in css
+## Use .classname to access classes in css
 
 ```CSS
 .first {
@@ -61,7 +61,7 @@
 }
 ```
 
-### Use #idname to access id's
+## Use #idname to access id's
 
 ```CSS
 #your_name {
@@ -70,7 +70,7 @@
 }
 ```
 
-### Use p{} to mofidy all paragraph elements on the page
+## Use p{} to mofidy all paragraph elements on the page
 
 ```CSS
 p {
@@ -78,7 +78,7 @@ p {
 }
 ```
 
-### Use a{} to modify all hyperlinks
+## Use a{} to modify all hyperlinks
 
 ```CSS
 a {
@@ -86,7 +86,7 @@ a {
 }
 ```
 
-### Selecting child classes/ids/objects (call the parent (#your_name) then the child (h2))
+## Selecting child classes/ids/objects (call the parent (#your_name) then the child (h2))
 
 ```CSS
 #your_name h2 {
@@ -94,11 +94,11 @@ a {
 }
 ```
 
-### Use the w3c validator website to check html code for errors
+## Use the w3c validator website to check html code for errors
 
-### Use <!--<em>Text Here</em>--> to italicize text and <!--<strong>Text Here</strong>--> to make a text bold. This can be done with CSS styling however it is important for screen readers.
+## Italicize/Bold text for screen readers. Real styling should be done with CSS however this is important for screen readers.
 
 ```Html
-<em>Hello World</em>
-<strong>Goodbye World</strong>
+<em>Hello World</em> <!--Italics-->
+<strong>Goodbye World</strong><!--Bold-->
 ```
