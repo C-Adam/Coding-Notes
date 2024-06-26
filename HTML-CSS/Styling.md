@@ -102,3 +102,5 @@ a {
 <em>Hello World</em> <!--Italics-->
 <strong>Goodbye World</strong><!--Bold-->
 ```
+
+## Can show full meaning of abbreviations with "<abbr>"
