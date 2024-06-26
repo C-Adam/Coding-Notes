@@ -119,15 +119,15 @@ a {
 
 ```Html
 <ol>
-    <li>This is #1</li> <!--1. This is #1-->
-    <li>This is #2</li> <!--2. This is #2-->
-    <li>This is #3</li> <!--3. This is #3-->
+    <li>This is #1</li>
+    <li>This is #2</li>
+    <li>This is #3</li>
 </ol>
 
-  <ul>
-    <li>This is #1</li> <!--1. This is #1-->
-    <li>This is #2</li> <!--2. This is #2-->
-    <li>This is #3</li> <!--3. This is #3-->
-  </ul>
+<ul>
+    <li>This is #1</li>
+    <li>This is #2</li>
+    <li>This is #3</li>
+</ul>
 
 ```
