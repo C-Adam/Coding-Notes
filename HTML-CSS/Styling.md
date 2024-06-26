@@ -103,4 +103,8 @@ a {
 <strong>Goodbye World</strong><!--Bold-->
 ```
 
-## Can show full meaning of abbreviations with "<abbr>"
+## Can show full meaning of abbreviations with:
+
+```Html
+<abbr title="Adam Paul Cooper">APC</abbr>
+```
