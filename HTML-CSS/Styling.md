@@ -112,5 +112,5 @@ a {
 ## For italics and screen readability, when adding an address/location, use the following:
 
 ```Html
-<address>High Point Estates, Ventura Avenue, Nassau, The Bahamas</address>
+<address>One Casino Drive, Suite 41, Paradise Island, Bahamas.</address>
 ```
