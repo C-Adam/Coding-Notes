@@ -95,3 +95,10 @@ a {
 ```
 
 ### Use the w3c validator website to check html code for errors
+
+### Use <!--<em>Text Here</em>--> to italicize text and <!--<strong>Text Here</strong>--> to make a text bold. This can be done with CSS styling however it is important for screen readers.
+
+```Html
+<em>Hello World</em>
+<strong>Goodbye World</strong>
+```
