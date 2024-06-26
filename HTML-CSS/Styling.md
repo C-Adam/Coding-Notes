@@ -130,4 +130,9 @@ a {
     <li>This is #3</li>
 </ul>
 
+<dl>
+    <dt>North Pole</dt> <!--Description Term-->
+    <dd>This is a very cold place</dd> <!--Description for the term above. This text is directly under the description term and indented.-->
+</dl>
+
 ```
