@@ -150,3 +150,13 @@ a {
 ```
 
 ## Linking to another location on the current web page (internal reference)
+
+```Html
+<!--First create sections which must have id's to be referenced to-->
+<section id="First">
+    <p>This is the first section</p>
+</section>
+
+<!--Then to access these sections, create a nav -->
+
+```
