@@ -157,6 +157,8 @@ a {
     <p>This is the first section</p>
 </section>
 
-<!--Then to access these sections, create a nav -->
-
+<!--Then to access these sections, create a nav element-->
+<nav>
+    <a href="#First">First</a>
+</nav>
 ```
