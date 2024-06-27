@@ -184,3 +184,9 @@ a {
 ```Html
  <a href="mailto:adamcooper427@gmail.com">Contact me at:</a>
 ```
+
+## Link a phone number to directly call
+
+```Html
+<a href="tel:+12424334663">Call me at:</a>
+```
