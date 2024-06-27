@@ -167,4 +167,7 @@ a {
     <br>
     <a href="#Second">Second</a>
 </nav>
+
+<!--Note, to take the user back to the top of the page, use the following-->
+<a href="#">Back to Top</a>
 ```
