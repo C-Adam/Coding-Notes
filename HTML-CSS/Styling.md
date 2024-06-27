@@ -171,3 +171,9 @@ a {
 <!--Note, to take the user back to the top of the page, use the following-->
 <a href="#">Back to Top</a>
 ```
+
+## Download files via links:
+
+```Html
+ <a href="pengu.jpg" download="">Download a cool picture of a penguin!</a>
+```
