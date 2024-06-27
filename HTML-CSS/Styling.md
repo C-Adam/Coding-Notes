@@ -143,8 +143,10 @@ a {
 <a href="https://www.youtube.com/">YouTube</a>
 ```
 
-## Linking to another local website file
+## Linking to another local website file (relative reference)
 
 ```Html
 <a href="about.html">Click this to read my About Me!</a>
 ```
+
+## Linking to another location on the current web page (internal reference)
