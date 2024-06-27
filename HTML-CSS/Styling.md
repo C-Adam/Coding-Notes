@@ -136,3 +136,9 @@ a {
 </dl>
 
 ```
+
+## Creating links (absolute reference)
+
+```Html
+<a href="https://www.youtube.com/">YouTube</a>
+```
