@@ -190,3 +190,10 @@ a {
 ```Html
 <a href="tel:+12424334663">Call me at:</a>
 ```
+
+## To make a link open in a new tab, use the following:
+
+```Html
+<!--The "target="_blank" attribute makes the link open a new tab-->
+<a href="https://www.google.com" target="_blank">Google</a>
+```
