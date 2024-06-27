@@ -137,8 +137,14 @@ a {
 
 ```
 
-## Creating links (absolute reference)
+## Creating links (absolute reference aka linking to another website through the server https)
 
 ```Html
 <a href="https://www.youtube.com/">YouTube</a>
+```
+
+## Linking to another local website file
+
+```Html
+<a href="about.html">Click this to read my About Me!</a>
 ```
