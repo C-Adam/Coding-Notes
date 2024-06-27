@@ -175,5 +175,6 @@ a {
 ## Download files via links:
 
 ```Html
+<!--The download attribute in the a element is what actually makes the file downloadable-->
  <a href="pengu.jpg" download="">Download a cool picture of a penguin!</a>
 ```
