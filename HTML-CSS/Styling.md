@@ -178,3 +178,9 @@ a {
 <!--The download attribute in the a element is what actually makes the file downloadable-->
  <a href="pengu.jpg" download="intended file name here">Download a cool picture of a penguin!</a>
 ```
+
+## Link to an email:
+
+```Html
+ <a href="mailto:adamcooper427@gmail.com">Contact me at:</a>
+```
