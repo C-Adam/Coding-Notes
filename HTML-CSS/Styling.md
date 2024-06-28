@@ -264,4 +264,30 @@ caption {
 }
 ```
 
-###
+## Sections vs Articles:
+
+This is purely semantic however, sections should be used to divide different groups of content while the article element should be treated as the parent of the sections.
+For example:
+
+```Html
+<article>
+    <h1>People</h1>
+    <p>text about people</p>
+    <section>
+        <h1>fat people</h1>
+        <p>text about fat people</p>
+    </section>
+    <section>
+        <h1>skinny people</p>
+        <p>text about skinny people</p>
+    </section>
+</article>
+<article>
+    <h1>Cars</h1>
+    <p>text about cars</p>
+    <section>
+        <h1>Fast Cars</h1>
+        <p>text about fast cars</p>
+    </section>
+</article>
+```
