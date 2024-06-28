@@ -218,3 +218,37 @@ Use the <loading="lazy"> attribute on images that are not initially seen on the 
         <a href="https://www.google.com" target="_blank">Google</a>
     </details>
 ```
+
+## Tables:
+
+````Html
+    <h2>My schedule</h2>
+    <table>
+        <th>Time</th>
+        <th>Activity</th>
+        <tr>
+            <td><time datetime="08:00">8am</time> - <time datetime="12:00">12pm</time></td>
+            <td>Study</td>
+        </tr>
+        <tr>
+            <td><time datetime="13:00">1pm</time> - <time datetime="15:00">3pm</time></td>
+            <td>Reading</td>
+        </tr>
+        <tr>
+            <!--There are "rowspan" and "colspan" attributes that allow for more manipulation-->
+            <td rowspan="2">All other times</td>
+            <td>Free time</td>
+        </tr>
+        <tr>
+            <td>Sleep</td>
+        </tr>
+    </table>
+
+<!--To add borders around the table, that takes CSS, find the CSS code below-->
+
+```CSS
+````
+
+```
+
+```
