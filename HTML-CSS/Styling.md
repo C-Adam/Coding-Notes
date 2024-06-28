@@ -204,3 +204,7 @@ a {
 ```Html
 <img src="images/Plane.png" alt="A cool plane!" title="A cool plane!">
 ```
+
+## Loading WebPages
+
+Use the loading="lazy" attribute on images that are not initally seen on the webpage
