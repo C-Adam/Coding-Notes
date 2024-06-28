@@ -221,7 +221,7 @@ Use the <loading="lazy"> attribute on images that are not initially seen on the 
 
 ## Tables:
 
-````Html
+```Html
     <h2>My schedule</h2>
     <table>
         <th>Time</th>
@@ -244,11 +244,19 @@ Use the <loading="lazy"> attribute on images that are not initially seen on the 
         </tr>
     </table>
 
-<!--To add borders around the table, that takes CSS, find the CSS code below-->
-
-```CSS
-````
-
+<!--To add borders around the table, that requires CSS, find the CSS code below-->
 ```
 
+```CSS
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px, solid;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  border-color: white;
+  padding: 0.5rem;
+}
 ```
