@@ -188,6 +188,7 @@ a {
 ## Link a phone number to directly call
 
 ```Html
+<!--Using "tel:PhoneNumber"-->
 <a href="tel:+12424334663">Call me at:</a>
 ```
 
