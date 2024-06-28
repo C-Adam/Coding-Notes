@@ -266,7 +266,8 @@ caption {
 
 ## Sections vs Articles:
 
-This is purely semantic however, sections should be used to divide different groups of content while the article element should be treated as the parent of the sections.
+This is purely semantic however, sections should be used to divide different groups of content while the article element should be treated as the main holder of information that are related to each other (which can be divided with sections).
+
 For example:
 
 ```Html
