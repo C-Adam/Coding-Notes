@@ -198,3 +198,9 @@ a {
 <!--The "target="_blank" attribute makes the link open a new tab-->
 <a href="https://www.google.com" target="_blank">Google</a>
 ```
+
+## Adding images:
+
+```Html
+<img src="images/Plane.png" alt="A cool plane!" title="A cool plane!">
+```
