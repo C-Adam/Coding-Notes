@@ -208,3 +208,13 @@ a {
 ## Loading WebPages
 
 Use the <loading="lazy"> attribute on images that are not initially seen on the webpage. This improves loading time and provides optimization. With the lazy attribute, the image will only load once the user's scroll bar is near the image.
+
+## Text with a drop down:
+
+```Html
+<!--Anything under the summary within the details element will be displayed once the dropdown arrow is clickd.-->
+    <details>
+        <summary>Hello</summary>
+        <a href="https://www.google.com" target="_blank">Google</a>
+    </details>
+```
