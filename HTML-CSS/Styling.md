@@ -224,7 +224,7 @@ Use the <loading="lazy"> attribute on images that are not initially seen on the 
 ```Html
     <table>
         <caption>My Daily Schedule</caption>
-        <thead>
+        <thead> <!--thead, tbody (found below) and tfoot are simply semantic and assist with code organization and screen reading.-->
             <th>Time</th>
             <th>Activity</th>
         </thead>
