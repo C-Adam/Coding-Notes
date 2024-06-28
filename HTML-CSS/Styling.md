@@ -222,8 +222,8 @@ Use the <loading="lazy"> attribute on images that are not initially seen on the 
 ## Tables:
 
 ```Html
-    <h2>My schedule</h2>
     <table>
+        <caption>My Daily Schedule</caption>
         <th>Time</th>
         <th>Activity</th>
         <tr>
