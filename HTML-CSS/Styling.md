@@ -212,7 +212,7 @@ Use the <loading="lazy"> attribute on images that are not initially seen on the 
 ## Text with a drop down:
 
 ```Html
-<!--Anything under the summary within the details element will be displayed once the dropdown arrow is clickd.-->
+<!--Anything under the summary within the details element will be displayed once the dropdown arrow is clicked.-->
     <details>
         <summary>Hello</summary>
         <a href="https://www.google.com" target="_blank">Google</a>
