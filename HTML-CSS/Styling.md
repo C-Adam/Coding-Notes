@@ -161,7 +161,7 @@ a {
     <p>This is the second section</p>
 </section>
 
-<!--Then to access these sections, create a nav element-->
+<!--Then to access these sections, create a nav element (usually at the top of the body)-->
 <nav>
     <a href="#First">First</a>
     <br>
