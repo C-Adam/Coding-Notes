@@ -207,4 +207,4 @@ a {
 
 ## Loading WebPages
 
-Use the loading="lazy" attribute on images that are not initally seen on the webpage
+Use the <loading="lazy"> attribute on images that are not initially seen on the webpage. This improves loading time and provides optimization. With the lazy attribute, the image will only load once the user's scroll bar is near the image.
