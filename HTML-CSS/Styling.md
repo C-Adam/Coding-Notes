@@ -298,8 +298,11 @@ For example:
 ```Html
 
 <form action="https://httpbin.org/get" method="get">
+    <!--Wrapping the contents in a paragraph allows there to be white space. div can also be used as an alternative-->
+    <p>
     <label for="firstName">First Name:</label>
     <!--Some attributes are optional such as: autocomplete, required, autofocus, placeholder -->
     <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" autocomplete="on" required autofocus>
+    </p>
 </form>
 ```
