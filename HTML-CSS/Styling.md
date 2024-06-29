@@ -297,13 +297,24 @@ For example:
 
 ```Html
 
+<!--Some attributes are optional such as: autocomplete, required, autofocus, and placeholder -->
+<!--The autocomplete attribute is not supported for type="password"-->
+
 <form action="https://httpbin.org/get" method="get">
     <!--Wrapping the contents in a paragraph allows there to be white space. div can also be used as an alternative-->
     <p>
     <label for="firstName">First Name:</label>
-    <!--Some attributes are optional such as: autocomplete, required, autofocus, and placeholder -->
-    <!--The autocomplete attribute is not supported for type="password"-->
+
+
     <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" autocomplete="on" required autofocus>
+    </p>
+</form>
+
+<!--type="tel" adds ease to the website for a user because when a mobile user is filling out the form, a number keypad will be displayed instead of an alphabetical one.-->
+<form action="https://httpbin.org/get" method="get">
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your phone number here"
+        pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
     </p>
 </form>
 
