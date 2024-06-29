@@ -297,8 +297,8 @@ For example:
 
 ```Html
 <form action="https://httpbin.org/get" method="get">
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here"
-            autocomplete="on" required autofocus>
+    <label for="firstName">First Name:</label>
+    <!--Some attributes are optional such as: autocomplete, required, autofocus, placeholder, -->
+    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" autocomplete="on" required autofocus>
 </form>
 ```
