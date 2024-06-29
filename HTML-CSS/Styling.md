@@ -292,3 +292,13 @@ For example:
     </section>
 </article>
 ```
+
+## Getting user input:
+
+```Html
+<form action="https://httpbin.org/get" method="get">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here"
+            autocomplete="on" required autofocus>
+</form>
+```
