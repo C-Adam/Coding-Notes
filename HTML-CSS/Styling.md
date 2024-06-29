@@ -301,7 +301,8 @@ For example:
     <!--Wrapping the contents in a paragraph allows there to be white space. div can also be used as an alternative-->
     <p>
     <label for="firstName">First Name:</label>
-    <!--Some attributes are optional such as: autocomplete, required, autofocus, placeholder -->
+    <!--Some attributes are optional such as: autocomplete, required, autofocus, and placeholder -->
+    <!--The autocomplete attribute is not supported for type="password"-->
     <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" autocomplete="on" required autofocus>
     </p>
 </form>
