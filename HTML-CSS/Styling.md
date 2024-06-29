@@ -322,7 +322,7 @@ For example:
  <p>
     <label for="coffee">Favorite Coffee</label>
     <select name="coffee" id="coffee">
-        <optgroup label="Coffees">
+        <optgroup label="Coffees"> <!--Option group puts a bold title above the options within the selection box (is not selectable)-->
             <option value="regularCoffee">Regular Coffee</option>
             <option value="blackCoffee">Black Coffee</option>
             <option value="icedCoffee">Iced Coffee</option>
