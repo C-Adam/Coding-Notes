@@ -301,12 +301,12 @@ For example:
 <!--The autocomplete attribute is not supported for type="password"-->
 
 <form action="https://httpbin.org/get" method="get">
-    <!--Wrapping the contents in a paragraph allows there to be white space. div can also be used as an alternative-->
+    <fieldset>
+    <legend>Personal Information</legend>
+        <!--Wrapping the contents in a paragraph allows there to be white space. div can also be used as an alternative-->
     <p>
-    <label for="firstName">First Name:</label>
-
-
-    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" autocomplete="on" required autofocus>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" autocomplete="on" required autofocus>
     </p>
 </form>
 
