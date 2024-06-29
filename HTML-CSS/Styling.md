@@ -357,6 +357,6 @@ For example:
 <form action="https://httpbin.org/get" method="get">
     <button type="submit">Submit</button>
     <button type="reset">Reset</button>
-    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button> <!--This is important because, although the form method is "get", this button overrides the method to "post". This is important because in a get request, all of the private information will be displayed in the URL while in a post request, the information stays hidden-->
 </form>
 ```
