@@ -350,3 +350,13 @@ For example:
 </p>
 
 ```
+
+## Buttons
+
+```Html
+<form action="https://httpbin.org/get" method="get">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+</form>
+```
