@@ -318,4 +318,21 @@ For example:
     </p>
 </form>
 
+<form action="https://httpbin.org/get" method="get">
+ <p>
+    <label for="coffee">Favorite Coffee</label>
+    <select name="coffee" id="coffee">
+        <optgroup label="Coffees">
+            <option value="regularCoffee">Regular Coffee</option>
+            <option value="blackCoffee">Black Coffee</option>
+            <option value="icedCoffee">Iced Coffee</option>
+        </optgroup>
+        <optgroup label="Espresso Drinks">
+            <option value="latte">Latte</option>
+            <option value="other" selected>Other</option>
+        </optgroup>
+    </select>
+</p>
+</form>
+
 ```
