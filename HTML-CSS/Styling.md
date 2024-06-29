@@ -318,6 +318,7 @@ For example:
     </p>
 </form>
 
+<!--This creates a drop down box that allows a value to be selected.-->
 <form action="https://httpbin.org/get" method="get">
  <p>
     <label for="coffee">Favorite Coffee</label>
@@ -334,5 +335,18 @@ For example:
     </select>
 </p>
 </form>
+
+<!--This also creates a selection box however the user is able to type an input and it the selection list will autocomplete. Additionally, the list items can have descriptions with them-->
+<p>
+    <label for="coffee">Favorite Coffee:</label>
+    <input type="text" id="coffee" name="coffee" , list="coffeeList">
+    <datalist id="coffeeList">
+        <option value="coffee">A delicious drink</option> <!--The text within the option elements will be the description and the value will be the title. (The title becomes bold)-->
+        <option value="latte"></option>
+        <option value="espresso"></option>
+        <option value="cortado"></option>
+        <option value="americano"></option>
+    </datalist>
+</p>
 
 ```
