@@ -301,13 +301,13 @@ For example:
 <!--The autocomplete attribute is not supported for type="password"-->
 
 <form action="https://httpbin.org/get" method="get">
-    <fieldset>
-    <legend>Personal Information</legend>
-        <!--Wrapping the contents in a paragraph allows there to be white space. div can also be used as an alternative-->
-    <p>
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" autocomplete="on" required autofocus>
-    </p>
+    <fieldset> <!--Puts a box/border around everything within the element-->
+        <legend>Personal Information</legend> <!--A title at the top of the fieldset border-->
+
+        <p><!--Wrapping the contents in a paragraph allows there to be white space. div can also be used as an alternative-->
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name here" autocomplete="on" required autofocus>
+        </p>
 </form>
 
 <!--type="tel" adds ease to the website for a user because when a mobile user is filling out the form, a number keypad will be displayed instead of an alphabetical one.-->
