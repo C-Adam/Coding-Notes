@@ -127,3 +127,7 @@ document.querySelector(".class"/"#id")
 
 Using "this" in a method:
 ![Presentation explaining the "this" keyword in JS (See this_keyword_method_example.PNG)](this_keyword_method_example.PNG)
+
+All Uses:
+
+![Presentation explaining the "this" keyword in JS (See uses_of_this_keyword.PNG)](uses_of_this_keyword.PNG)
