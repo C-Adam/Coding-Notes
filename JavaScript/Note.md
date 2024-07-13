@@ -122,3 +122,8 @@ document.querySelector(".class"/"#id")
 ### Scoping
 
 ![Presentation explaining JavaScript Scopes (See JS_Scoping.PNG)](JS_Scoping.png)
+
+### This Keyword
+
+Using "this" in a method:
+![Presentation explaining the "this" keyword in JS (See this_keyword_method_example.PNG)](this_keyword_method_example.PNG)
