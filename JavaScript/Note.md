@@ -164,21 +164,21 @@ const restaurant = {
   },
 }
 
-let [main, , secondary] = restaurant.categories;
+let [main, , secondary] = restaurant.categories; //The , , means to skip an index
 
-console.log(`Main: ${main}, Secondary: ${secondary}`);
+console.log(`Main: ${main}, Secondary: ${secondary}`); //Prints main = "Italian" and secondary = "Vegetarian"
 
-[main, secondary] = [secondary, main];
+[main, secondary] = [secondary, main]; //Switches the order from "Italian" "Vegetarian --> "Vegetarian" "Italian"
 
-console.log(`Main: ${main}, Secondary: ${secondary}`);
+console.log(`Main: ${main}, Secondary: ${secondary}`); //Prints main = "Vegetarian" and secondary = "Italian"
 
-const [starter, mainCourse] = restaurant.Order(2, 0);
+const [starter, mainCourse] = restaurant.Order(2, 0); //Storing multiple returned values into an array.
 
-console.log(starter, mainCourse);
+console.log(starter, mainCourse); //Prints "Garlic Bread" and "Pizza"
 
 const nested = [2, 4, [5, 6]];
 
-const [i, , [j, k]] = nested;
+const [i, , [j, k]] = nested; //Skips the four and stores the appropriate values
 
 console.log(i, j, k); //Prints 2, 5, 6
 ```
