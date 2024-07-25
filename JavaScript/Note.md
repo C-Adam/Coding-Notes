@@ -228,3 +228,18 @@ const {fri: { open, close }} = openingHours;
 
 console.log(open, close); //Prints 11 and 23
 ```
+
+## Destructuring Objects in Function Parameters
+
+```JavaScript
+ function OrderDelivery ({ starterIndex, mainIndex, time, address }) {
+    console.log(starterIndex);
+  },
+
+OrderDelivery({
+  time: "22:30",
+  address: "Via del Sole, 21",
+  mainIndex: 2,
+  starterIndex: 2,
+});
+```
