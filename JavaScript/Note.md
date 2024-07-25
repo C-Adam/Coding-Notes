@@ -223,4 +223,8 @@ const {
 } = restaurant;
 
 console.log(restaurantName, hours, tags); //Still prints "Classico Italiano", {thu: {}, fri: {}, sat: {}}, ["Italian", "Pizzeria", etc...]
+
+const {fri: { open, close }} = openingHours;
+
+console.log(open, close); //Prints 11 and 23
 ```
