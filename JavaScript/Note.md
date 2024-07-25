@@ -232,7 +232,7 @@ console.log(open, close); //Prints 11 and 23
 ## Destructuring Objects in Function Parameters
 
 ```JavaScript
-function OrderDelivery ({ starterIndex, mainIndex, time, address }) { //Unpacking the object using correct naming like in the example above allows for the parameter order to be ignored.
+function OrderDelivery ({ starterIndex = 1, mainIndex, time, address }) { //Unpacking the object using correct naming like in the example above allows for the parameter order to be ignored.
   console.log(starterIndex);
 },
 
