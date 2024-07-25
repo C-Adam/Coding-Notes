@@ -141,10 +141,10 @@ const jessica = {
     family: ["Alice", "Bob"] //This is an example of a deeply nested object that will be changed in both objects if manipulated.
 }
 
-const jessicaCopy = Object.assign({}, jessica);
+const jessicaCopy = Object.assign({}, jessica); //Shallow clones the object into a blank object (jessica --> {})
 
-jessicaCopy.lastName = "Davis" //Will only change in the jessicaCopy object
+jessicaCopy.lastName = "Davis"; //Will only change in the jessicaCopy object
 
-jessicaCopy.family.push("Mary") //Adding marry to jessica copy's family will also add it to the original jessica object.
+jessicaCopy.family.push("Mary"); //Adding marry to jessica copy's family will also add it to the original jessica object.
 
 ```
