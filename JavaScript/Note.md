@@ -232,7 +232,9 @@ console.log(open, close); //Prints 11 and 23
 ## Destructuring Objects in Function Parameters
 
 ```JavaScript
-function OrderDelivery ({ starterIndex = 1, mainIndex, time, address }) { //Unpacking the object using correct naming like in the example above allows for the parameter order to be ignored.
+//Adding the = after a variable when destructuring sets the default value for that variable in the event that it cannot be destructured (for example if a value is undefined). Which means that if the starterIndex was not provided, the value of the parameter in the function would be the default value of 1.
+
+function OrderDelivery ({ starterIndex = 1, mainIndex = 0, time, address }) { //Unpacking the object using correct naming like in the example above allows for the parameter order to be ignored.
   console.log(starterIndex);
 },
 
