@@ -8,9 +8,9 @@
 console.log() //print
 ```
 
-### use const when variable not supposed to change and let when it will change
+## use const when variable not supposed to change and let when it will change
 
-### Template Literals
+## Template Literals
 
 ```JavaScript
 //Encase string with ` ` to use template literals
@@ -18,7 +18,7 @@ console.log() //print
 const adam_new = `I'm from ${country}, which is in ${contient}`
 ```
 
-### Type conversion
+## Type conversion
 
 ```JavaScript
 const my_number = "1"
@@ -27,7 +27,7 @@ console.log(Number(my_number) + 1) //Would print 2
 console.log(String(0)) //Would print "0"
 ```
 
-### === vs ==
+## === vs ==
 
 ```JavaScript
  18 === 18 // --> true
@@ -36,7 +36,7 @@ console.log(String(0)) //Would print "0"
  //== does type coercion
 ```
 
-### Use prompt to get user input (appears in a similar box to alert)
+## Use prompt to get user input (appears in a similar box to alert)
 
 ```JavaScript
 const favorite_number = Number(prompt(`What's your favorite number?`))
@@ -48,7 +48,7 @@ if (favorite_number > 1){
 }
 ```
 
-### Logical operators
+## Logical operators
 
 ```JavaScript
 // && --> and
@@ -56,7 +56,7 @@ if (favorite_number > 1){
 // !{boolean} --> not
 ```
 
-### Switch Statement, another form of if/else statement
+## Switch Statement, another form of if/else statement
 
 ```JavaScript
 const day = "Monday";
@@ -85,7 +85,7 @@ switch (day) {
 }
 ```
 
-### Ternary Operator - For quick if else checking, use ? after the expression then [code to run if true] : [code to run if false]
+## Ternary Operator - For quick if else checking, use ? after the expression then [code to run if true] : [code to run if false]
 
 ```JavaScript
 const age = 24
@@ -93,7 +93,7 @@ const age = 24
 age >= 18 ? console.log("Adult") : console.log("Child")
 ```
 
-### Array Methods:
+## Array Methods:
 
 ```JavaScript
 array.push(item) //adds the item next to the last index in the array AND returns the new length of the array if stored in a variable.
@@ -104,7 +104,7 @@ array.indexOf(item) //returns index of the item.
 array.includes(item) //returns a boolean whether the item was found within the array.
 ```
 
-### Dictionary:
+## Dictionary:
 
 ```JavaScript
 const adam = {
@@ -113,13 +113,13 @@ const adam = {
 }
 ```
 
-### To reference HTML elements via JS, use:
+## To reference HTML elements via JS, use:
 
 ```JavaScript
 document.querySelector(".class"/"#id")
 ```
 
-### Scoping
+## Scoping
 
 ![Presentation explaining JavaScript Scopes (See JS_Scoping.PNG)](JS_Scoping.png)
 
@@ -131,3 +131,5 @@ Using "this" in a method:
 All Uses:
 
 ![Presentation explaining the "this" keyword in JS (See uses_of_this_keyword.PNG)](uses_of_this_keyword.PNG)
+
+## Shallow cloning an object (deeply nested )
