@@ -211,12 +211,13 @@ const restaurant = {
   },
 };
 
-const { name, openingHours, categories } = restaurant; //Unlike arrays, the order does not matter, the variable names should match the object's
+const { name, openingHours, categories } = restaurant; //Unlike arrays, the order does not matter, the variable names should match the object's variable name.
 
-console.log(name, openingHours, categories);
+console.log(name, openingHours, categories); //Prints "Classico Italiano", {thu: {}, fri: {}, sat: {}}, ["Italian", "Pizzeria", etc...]
+
 
 const {
-  name: restaurantName,
+  name: restaurantName, //The colon after
   openingHours: hours,
   categories: tags,
 } = restaurant;
