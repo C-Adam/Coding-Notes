@@ -133,3 +133,18 @@ All Uses:
 ![Presentation explaining the "this" keyword in JS (See uses_of_this_keyword.PNG)](uses_of_this_keyword.PNG)
 
 ## Shallow cloning an object (deeply nested objects within an object are cloned however if manipulated, the original object will also be affected)
+
+```JavaScript
+const jessica = {
+    firstName: "Jessica",
+    lastName: "Williams",
+    family: ["Alice", "Bob"] //This is an example of a deeply nested object that will be changed in both objects if manipulated.
+}
+
+const jessicaCopy = Object.assign({}, jessica);
+
+jessicaCopy.lastName = "Davis" //Will only change in the jessicaCopy object
+
+jessicaCopy.family.push("Mary") //Adding marry to jessica copy's family will also add it to the original jessica object.
+
+```
