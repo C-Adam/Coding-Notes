@@ -132,4 +132,4 @@ All Uses:
 
 ![Presentation explaining the "this" keyword in JS (See uses_of_this_keyword.PNG)](uses_of_this_keyword.PNG)
 
-## Shallow cloning an object (deeply nested )
+## Shallow cloning an object (deeply nested objects within an object are cloned however if manipulated, the original object will also be affected)
