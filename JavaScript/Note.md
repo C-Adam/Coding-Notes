@@ -148,3 +148,37 @@ jessicaCopy.lastName = "Davis"; //Will only change in the jessicaCopy object
 jessicaCopy.family.push("Mary"); //Adding marry to jessica copy's family will also add it to the original jessica object.
 
 ```
+
+## Destructuring Arrays
+
+```JavaScript
+const restaurant = {
+  name: "Classico Italiano",
+  location: "Via Angelo Tavanti 23, Firenze, Italy",
+  categories: ["Italian", "Pizzeria", "Vegetarian", "Organic"],
+  starterMenu: ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"],
+  mainMenu: ["Pizza", "Pasta", "Risotto"],
+
+  Order: function (starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
+}
+
+let [main, , secondary] = restaurant.categories;
+
+console.log(`Main: ${main}, Secondary: ${secondary}`);
+
+[main, secondary] = [secondary, main];
+
+console.log(`Main: ${main}, Secondary: ${secondary}`);
+
+const [starter, mainCourse] = restaurant.Order(2, 0);
+
+console.log(starter, mainCourse);
+
+const nested = [2, 4, [5, 6]];
+
+const [i, , [j, k]] = nested;
+
+console.log(i, j, k); //Prints 2, 5, 6
+```
