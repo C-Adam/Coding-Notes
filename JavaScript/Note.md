@@ -217,10 +217,10 @@ console.log(name, openingHours, categories); //Prints "Classico Italiano", {thu:
 
 
 const {
-  name: restaurantName, //The colon after
+  name: restaurantName, //The colon after the variable name allows for re-naming so when accessing the variables, the assigned names are used.
   openingHours: hours,
   categories: tags,
 } = restaurant;
 
-console.log(restaurantName, hours, tags);
+console.log(restaurantName, hours, tags); //Still prints "Classico Italiano", {thu: {}, fri: {}, sat: {}}, ["Italian", "Pizzeria", etc...]
 ```
