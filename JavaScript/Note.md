@@ -260,4 +260,11 @@ console.log(...newArr); //Prints the contents of the array separately: 1 2 7 8 9
 
 //The spread operator works with all iterables(arrays, strings, maps, sets, etc)
 
+//Breaking down a string
+const myName = "Adam"
+
+const myNameLetters = [...myName] //Saves each letter into the array separated by commas
+
+console.log(myNameLetters) //Prints ["A", "d", "a", "m"]
+console.log(...myName) //Prints A d a m
 ```
