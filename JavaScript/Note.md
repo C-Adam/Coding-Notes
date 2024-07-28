@@ -286,3 +286,10 @@ const ingredients = [
 
 restaurant.OrderPasta(...ingredients); //Unpacks the 3 ingredients in the array and provides them as the 3 required parameters.
 ```
+
+## Short Circuiting
+
+```JavaScript
+//The OR operator (||) will return the first truthy value of all the operands or the last value if all are falsy.
+//The AND operator (&&) will
+```
