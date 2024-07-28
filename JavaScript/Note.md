@@ -291,13 +291,15 @@ restaurant.OrderPasta(...ingredients); //Unpacks the 3 ingredients in the array 
 function add(...numbers){
 //...numbers packs all of the arguments into an array
 let sum = 0
+
 for (let i = 0; i < numbers.length; i++) {
   sum += numbers[i]
 }
+
+console.log(sum);
 }
 
-add(2, 3)
-add(5, 7, 8)
+add(2, 3) //Prints 5
 
 const x = [1, 2, 3]
 
