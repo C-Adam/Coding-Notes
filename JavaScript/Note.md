@@ -325,3 +325,14 @@ console.log(true || 0) //Prints true
 console.log(0 && "Adam") //Prints 0
 console.log(7 && "Adam") //Prints Adam
 ```
+
+## Nullish Coalescing Operator
+
+```JavaScript
+const myGuest = 0
+
+const guests = myGuest || 10
+
+
+
+```
