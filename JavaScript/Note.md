@@ -286,19 +286,18 @@ const ingredients = [
 
 restaurant.OrderPasta(...ingredients); //Unpacks the 3 ingredients in the array and provides them as the 3 required parameters.
 
-//Rest Pattern
+//------Rest Pattern------
 
-//In destructuring
-
+// In Destructuring:
 const names = ["Adam", "Bob", "Barry", "Lola", "Cassandra"]
 
 const [myName, ...otherNames] = names;
 
-console.log(myName, otherNames) //Prints Adam and an array with ["Bob", "Barry", "Lola", "Cassandra"]
+console.log(myName, otherNames) //Prints Adam separately and an array with ["Bob", "Barry", "Lola", "Cassandra"]
 
-//In a function
-function add(...numbers){
+//In Functions:
 //...numbers packs all of the arguments into an array
+function add(...numbers){
 let sum = 0
 
 for (let i = 0; i < numbers.length; i++) {
