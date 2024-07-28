@@ -247,3 +247,12 @@ OrderDelivery({ //The variables do not match the function parameters however it 
   starterIndex: 2,
 });
 ```
+
+## The Spread Operator(...)
+
+```JavaScript
+const arr = [7, 8, 9];
+const newArr = [1, 2, ...arr];
+
+console.log(newArr); //Prints the array [1, 2, 7, 8, 9]
+```
