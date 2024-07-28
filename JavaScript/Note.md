@@ -329,10 +329,17 @@ console.log(7 && "Adam") //Prints Adam
 ## Nullish Coalescing Operator
 
 ```JavaScript
-const myGuest = 0
+const myGuest = 0;
 
-const guests = myGuest || 10
+const guests = myGuest || 10;
 
+console.log(guests); //Prints 10 because 0 is a falsy value.
+
+//However, if we want to check only if the variable exists regardless if it is falsy or not, we can use the nullish coalescing operator.
+
+const guestCorrect = myGuest ?? 10;
+
+console.log(guestCorrect); //Prints 0 if myGuest exists or 10 if the variable is null/undefined.
 
 
 ```
