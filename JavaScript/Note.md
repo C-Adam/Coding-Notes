@@ -288,6 +288,15 @@ restaurant.OrderPasta(...ingredients); //Unpacks the 3 ingredients in the array 
 
 //Rest Pattern
 
+//In destructuring
+
+const names = ["Adam", "Bob", "Barry", "Lola", "Cassandra"]
+
+const [myName, ...otherNames] = names;
+
+console.log(myName, otherNames) //Prints Adam and an array with ["Bob", "Barry", "Lola", "Cassandra"]
+
+//In a function
 function add(...numbers){
 //...numbers packs all of the arguments into an array
 let sum = 0
