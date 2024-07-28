@@ -340,6 +340,4 @@ console.log(guests); //Prints 10 because 0 is a falsy value.
 const guestCorrect = myGuest ?? 10;
 
 console.log(guestCorrect); //Prints 0 if myGuest exists or 10 if the variable is null/undefined.
-
-
 ```
