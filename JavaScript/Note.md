@@ -258,4 +258,6 @@ console.log(newArr); //Prints the array: [1, 2, 7, 8, 9]
 
 console.log(...newArr); //Prints the contents of the array separately: 1 2 7 8 9
 
+//The spread operator works with all iterables(arrays, strings, maps, sets, etc)
+
 ```
