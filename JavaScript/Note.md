@@ -248,7 +248,7 @@ OrderDelivery({ //The variables do not match the function parameters however it 
 });
 ```
 
-## The Spread Operator(...)
+## The Spread Operator(...) and Rest Pattern
 
 ```JavaScript
 const arr = [7, 8, 9];
@@ -285,6 +285,12 @@ const ingredients = [
 ];
 
 restaurant.OrderPasta(...ingredients); //Unpacks the 3 ingredients in the array and provides them as the 3 required parameters.
+
+//Rest Pattern
+
+function add(...numbers){
+
+}
 ```
 
 ## Short Circuiting
