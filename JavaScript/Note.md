@@ -289,8 +289,19 @@ restaurant.OrderPasta(...ingredients); //Unpacks the 3 ingredients in the array 
 //Rest Pattern
 
 function add(...numbers){
-
+//...numbers packs all of the arguments into an array
+let sum = 0
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i]
 }
+}
+
+add(2, 3)
+add(5, 7, 8)
+
+const x = [1, 2, 3]
+
+add(...x)//Unpacks all elements and provides them as individual arguments printing 5
 ```
 
 ## Short Circuiting
