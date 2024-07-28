@@ -291,5 +291,13 @@ restaurant.OrderPasta(...ingredients); //Unpacks the 3 ingredients in the array 
 
 ```JavaScript
 //The OR operator (||) will return the first truthy value of all the operands or the last value if all are falsy.
-//The AND operator (&&) will
+//The AND operator (&&) will return the first falsy value of all operands or the last value if all are truthy.
+
+//OR
+console.log()
+console.log()
+
+//AND
+console.log()
+console.log()
 ```
