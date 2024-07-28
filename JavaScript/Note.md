@@ -267,4 +267,24 @@ const myNameLetters = [...myName] //Saves each letter into the array separated b
 
 console.log(myNameLetters) //Prints ["A", "d", "a", "m"]
 console.log(...myName) //Prints A d a m
+
+//Using spread operator in a function with multiple parameters
+const restaurant = {
+  OrderPasta: function (ing1, ing2, ing3) {
+    console.log(
+      `Here is your delicious pasta with ${ing1}, ${ing2}, and ${ing3}`
+      );
+  },
+}
+
+//Prompt the user for input
+const ingredients = [
+  prompt("Let's make pasta! Ingredient 1?"),
+  prompt("Let's make pasta! Ingredient 2?"),
+  prompt("Let's make pasta! Ingredient 3?"),
+];
+
+restaurant.OrderPasta(...ingredients); //Unpacks the 3 ingredients in the array and provides them as the 3 required parameters.
+
+
 ```
