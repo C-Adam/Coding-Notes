@@ -285,6 +285,4 @@ const ingredients = [
 ];
 
 restaurant.OrderPasta(...ingredients); //Unpacks the 3 ingredients in the array and provides them as the 3 required parameters.
-
-
 ```
