@@ -350,10 +350,22 @@ const restaurant = {
   mainMenu: ["Pizza", "Pasta", "Risotto"],
 }
 
-const menu = [...restaurant.starterMenu, ...restaurant.mainMenu]; //Unpacks both menu's into 1 array
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu]; //Unpacks both menu's elements into 1 array
 
 for (const item of menu) {
   console.log(item);
+  /*
+  Prints each of the items in the array separately:
+
+  Focaccia
+  Bruschetta
+  Garlic Bread
+  Caprese Salad
+  Pizza
+  Pasta
+  Risotto
+
+  */
 }
 
 for (const [index, foodName] of menu.entries()) {
