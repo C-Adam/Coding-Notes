@@ -341,3 +341,23 @@ const guestCorrect = myGuest ?? 10;
 
 console.log(guestCorrect); //Prints 0 if myGuest exists or 10 if the variable is null/undefined.
 ```
+
+## for-of loop
+
+```JavaScript
+const restaurant = {
+  starterMenu: ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"],
+  mainMenu: ["Pizza", "Pasta", "Risotto"],
+}
+
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu]; //Unpacks both menu's into 1 array
+
+for (const item of menu) {
+  console.log(item);
+}
+
+for (const [index, foodName] of menu.entries()) {
+  console.log(`${index + 1}: ${foodName}`);
+}
+
+```
