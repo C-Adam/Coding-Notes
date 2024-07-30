@@ -352,13 +352,9 @@ const restaurant = {
 
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu]; //Unpacks both menu's elements into 1 array
 
-
-for (const item of menu) {
-  console.log(item);
-}
-
+//-------Method 1---------
 /*
-The code above Prints each of the items in the array separately:
+The code below Prints each of the items in the array separately:
 
 Focaccia
 Bruschetta
@@ -369,10 +365,12 @@ Pasta
 Risotto
 */
 
+for (const item of menu) {
+  console.log(item);
+}
 
 
-/////////////////////////////////////////////
-//If we want the index of the element, we use .entries() on the array which puts each item into their own array with their original indexes
+//--------Method 2---------------
 /*
 If we want the index of the element, we use .entries() on the array which puts each item into their own array with their original indexes
 [ 0, 'Focaccia' ]
@@ -383,6 +381,11 @@ If we want the index of the element, we use .entries() on the array which puts e
 [ 5, 'Pasta' ]
 [ 6, 'Risotto' ]
 */
+
+for (const item of menu.entries()) {
+  console.log(item);
+}
+
 for (const [index, foodName] of menu.entries()) {
   console.log(`${index + 1}: ${foodName}`);
 }
