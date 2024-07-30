@@ -457,9 +457,9 @@ const restaurants = {
 }
 
 
-const days = Object.keys(restaurant.openingHours);
+const days = Object.keys(restaurant.openingHours); //Creates an array and inserts all of the keys of the object provided
 for (const day of days) {
-  console.log(day);
+  console.log(day); //Prints wednesday thursday friday
 }
 
 ```
