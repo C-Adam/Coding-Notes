@@ -473,5 +473,8 @@ console.log(entries); //This prints the following:
   [ 'fri', { open: 11, close: 23 } ],
   [ 'sat', { open: 0, close: 24 } ]
 ]
+
+Which is an array containing arrays that contain each key and value pair.
 */
+
 ```
