@@ -385,10 +385,16 @@ for (const item of menu.entries()) {
 /*
 We can separate the index and the element into separate variables via destructuring. This is the equivalent to a for i, v in pairs() loop in the Lua programming language. Which would print the following:
 
+1: Focaccia
+2: Bruschetta
+3: Garlic Bread
+4: Caprese Salad
+5: Pizza
+6: Pasta
+7: Risotto
 
-
+NOTE: The first element didn't start from 0 in the printed result because in the loop, we added 1 to the index for more accurate display.
 */
-
 
 for (const [index, foodName] of menu.entries()) {
   console.log(`${index + 1}: ${foodName}`);
