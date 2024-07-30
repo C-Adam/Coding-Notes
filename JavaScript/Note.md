@@ -419,9 +419,9 @@ const restaurants = {
 Instead of writing if(openingHours && openingHours.monday){...}, we can write:
 */
 
-console.log(restaurant.openingHours?.mon); //This would print undefined
+console.log(restaurant.openingHours?.mon?.open); //This would print undefined
 
-/
+/*The "?" checks the existance of all of the elements before it, then if they do exist, it would return undefined if the property before the "?" does not exist. Without this optional chaining, we would receive an error*/
 
 
 
