@@ -368,6 +368,11 @@ for (const item of menu) {
   */
 }
 
+
+//If we want the index of the element, we use .entries() on the array which puts each item into their own array with their original indexes
+/*
+
+*/
 for (const [index, foodName] of menu.entries()) {
   console.log(`${index + 1}: ${foodName}`);
 }
