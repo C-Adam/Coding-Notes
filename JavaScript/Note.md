@@ -347,9 +347,9 @@ console.log(guestCorrect); //Prints 0 if myGuest exists or 10 if the variable is
 ```JavaScript
 const menu = ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad", "Pizza", "Pasta", "Risotto"]
 
-//-------Method 1---------
+//-------Example 1---------
 /*
-The code below Prints each of the items in the array separately:
+The code below prints each of the items in the array separately:
 
 Focaccia
 Bruschetta
@@ -365,7 +365,7 @@ for (const item of menu) {
 }
 
 
-//--------Method 2---------------
+//--------Using .entries()---------------
 /*
 If we want the index of the element, we use .entries() on the array which puts each item into their own array with their original indexes
 [ 0, 'Focaccia' ]
