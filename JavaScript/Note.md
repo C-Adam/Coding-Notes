@@ -342,7 +342,7 @@ const guestCorrect = myGuest ?? 10;
 console.log(guestCorrect); //Prints 0 if myGuest exists or 10 if the variable is null/undefined.
 ```
 
-## for-of loop
+## for-of loop and .entries()
 
 ```JavaScript
 const restaurant = {
@@ -385,6 +385,8 @@ If we want the index of the element, we use .entries() on the array which puts e
 for (const item of menu.entries()) {
   console.log(item);
 }
+
+//--------Method 3---------------
 
 for (const [index, foodName] of menu.entries()) {
   console.log(`${index + 1}: ${foodName}`);
