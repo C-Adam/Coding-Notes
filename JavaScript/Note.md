@@ -429,7 +429,7 @@ console.log(restaurant.openingHours?.mon?.open); //This would print undefined
 
 //The same can be used on Methods:
 console.log(restaurant.SaySomething?.("Hello World!") ?? "Method does not exist"); //This would print Hello World!
-console.log(restaurant.Bye?.("Hello World!") ?? "Method does not exist"); //This would print Method does not exist
+console.log(restaurant.RandomPhrase?.("Hello World!") ?? "Method does not exist"); //This would print Method does not exist
 
 //As well as Arrays:
 let users = [{ name: "jonas", email: "blalalal@gmail.com" }];
