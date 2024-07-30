@@ -462,4 +462,16 @@ for (const day of days) {
   console.log(day); //Prints wednesday thursday friday
 }
 
+//We can alternatively use Object.values(restaurant.openingHours) if we need the values.
+
+const entries = Object.entries(restaurant.openingHours);
+console.log(entries); //This prints the following:
+
+/*
+[
+  [ 'thu', { open: 12, close: 22 } ],
+  [ 'fri', { open: 11, close: 23 } ],
+  [ 'sat', { open: 0, close: 24 } ]
+]
+*/
 ```
