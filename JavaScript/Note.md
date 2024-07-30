@@ -401,3 +401,26 @@ for (const [index, foodName] of menu.entries()) {
 }
 
 ```
+
+## Optional Chaining
+
+```JavaScript
+//If we are checking if a property exists, instead of using if statements, we can use optional chaining.
+
+const restaurants = {
+  openingHours: {
+    wed: {open: 12, close: 6}
+    thu: {open: 9, close: 11},
+    fri: {open: 2, close: 7},
+  }
+}
+
+/*This would be useful in cases of using an API since the data isn't hardcoded so a lot of checking would have to be done.
+
+*/
+
+
+
+
+
+```
