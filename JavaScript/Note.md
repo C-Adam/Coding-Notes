@@ -409,15 +409,19 @@ for (const [index, foodName] of menu.entries()) {
 
 const restaurants = {
   openingHours: {
-    wed: {open: 12, close: 6}
-    thu: {open: 9, close: 11},
-    fri: {open: 2, close: 7},
+    wednesday: {open: 12, close: 6}
+    thursday: {open: 9, close: 11},
+    friday: {open: 2, close: 7},
   }
 }
 
 /*This would be useful in cases of using an API since the data isn't hardcoded so a lot of checking would have to be done.
-
+Instead of writing if(openingHours && openingHours.monday){...}, we can write:
 */
+
+console.log(restaurant.openingHours?.mon); //This would print undefined
+
+/
 
 
 
