@@ -412,6 +412,10 @@ const restaurants = {
     wednesday: {open: 12, close: 6}
     thursday: {open: 9, close: 11},
     friday: {open: 2, close: 7},
+  },
+
+  Hello: function(){
+    console.log("Hello");
   }
 }
 
@@ -425,7 +429,8 @@ console.log(restaurant.openingHours?.mon?.open); //This would print undefined
 
 //The same can be used on Methods:
 
-console.log(restaurant.Order ? "Method exists" : "Method does not exist"); //This would print
+console.log(restaurant.Order ? "Method exists" : "Method does not exist"); //This would print Method does not exist
+console.log(restaurant.Hello ? "Method exists" : "Method does not exist"); //This would print Method exists
 
 //----------------------Extra Tip-------------------------
 //Fun fact: This can be combined with the Ternary Operator:
