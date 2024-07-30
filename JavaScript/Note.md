@@ -465,16 +465,23 @@ for (const day of days) {
 //We can alternatively use Object.values(restaurant.openingHours) if we need the values.
 
 const entries = Object.entries(restaurant.openingHours);
-console.log(entries); //This prints the following:
-
+console.log(entries); //This prints an array containing arrays that contain each key and value pair:
 /*
 [
   [ 'thu', { open: 12, close: 22 } ],
   [ 'fri', { open: 11, close: 23 } ],
   [ 'sat', { open: 0, close: 24 } ]
 ]
-
-Which is an array containing arrays that contain each key and value pair.
 */
 
+//We can take this a step further with destructuring:
+for (const [key, { open, close }] of entries) {
+  console.log(key, open, close);
+}
+
+/*Which would print:
+thu 12 22
+fri 11 23
+sat 0 24
+*/
 ```
