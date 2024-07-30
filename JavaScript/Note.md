@@ -414,8 +414,8 @@ const restaurants = {
     friday: {open: 2, close: 7},
   },
 
-  Hello: function(){
-    console.log("Hello");
+  SaySomething: function(something){
+    console.log(something);
   }
 }
 
@@ -428,8 +428,8 @@ console.log(restaurant.openingHours?.mon?.open); //This would print undefined
 /*The "?" checks the existence of all elements before it. If an element does not exist, "undefined" would be returned instead of proceeding. Without this optional chaining, we would receive an error because: monday is already undefined and trying to access an property of an undefined element results in a error.*/
 
 //The same can be used on Methods:
-console.log(restaurant.Order?.("sushi")? "Method exists" : "Method does not exist"); //This would print Method does not exist
-console.log(restaurant.Hello ? "Method exists" : "Method does not exist"); //This would print Method exists
+console.log(restaurant.SaySomething?.("Hello World!") ?? "Method does not exist"); //This would print Hello World!
+console.log(restaurant.Bye?.("Hello World!") ?? "Method does not exist"); //This would print Method does not exist
 
 //As well as Arrays:
 let users = [{ name: "jonas", email: "blalalal@gmail.com" }];
@@ -443,6 +443,4 @@ console.log(users[0]?.name ?? "Empty"); //Prints Empty
 //----------------------Extra Tip-------------------------
 //Fun fact: This can be combined with the Ternary Operator:
 console.log(restaurant.openingHours?.mon?.open ? "Exist" : "Doesn't Exist"); //Will print Doesn't exist.
-
-
 ```
