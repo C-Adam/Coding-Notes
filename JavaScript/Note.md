@@ -381,7 +381,7 @@ for (const item of menu.entries()) {
   console.log(item);
 }
 
-//--------Method 3---------------
+//--------Using destructuring with .entries()---------------
 
 for (const [index, foodName] of menu.entries()) {
   console.log(`${index + 1}: ${foodName}`);
