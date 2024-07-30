@@ -421,10 +421,5 @@ Instead of writing if(openingHours && openingHours.monday){...}, we can write:
 
 console.log(restaurant.openingHours?.mon?.open); //This would print undefined
 
-/*The "?" checks the existance of all of the elements before it, then if they do exist, it would return undefined if the property before the "?" does not exist. Without this optional chaining, we would receive an error*/
-
-
-
-
-
+/*The "?" checks the existence of all elements before it. If an element does not exist, "undefined" would be returned instead of proceeding. Without this optional chaining, we would receive an error because: monday is already undefined and trying to access an property of an undefined element results in a error.*/
 ```
