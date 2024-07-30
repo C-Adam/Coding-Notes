@@ -440,7 +440,6 @@ users = []
 
 console.log(users[0]?.name ?? "Empty"); //Prints Empty
 
-
 //----------------------Extra Tip-------------------------
 //Fun fact: This can be combined with the Ternary Operator:
 console.log(restaurant.openingHours?.mon?.open ? "Exist" : "Doesn't Exist"); //Will print Doesn't exist.
