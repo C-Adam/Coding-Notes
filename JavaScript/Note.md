@@ -345,12 +345,7 @@ console.log(guestCorrect); //Prints 0 if myGuest exists or 10 if the variable is
 ## for-of loop and .entries()
 
 ```JavaScript
-const restaurant = {
-  starterMenu: ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"],
-  mainMenu: ["Pizza", "Pasta", "Risotto"],
-}
-
-const menu = [...restaurant.starterMenu, ...restaurant.mainMenu]; //Unpacks both menu's elements into 1 array
+const menu = ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad", "Pizza", "Pasta", "Risotto"]
 
 //-------Method 1---------
 /*
