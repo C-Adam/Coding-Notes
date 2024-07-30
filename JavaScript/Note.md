@@ -382,6 +382,13 @@ for (const item of menu.entries()) {
 }
 
 //--------Using destructuring with .entries()---------------
+/*
+We can separate the index and the element into separate variables via destructuring. This is the equivalent to a for i, v in pairs() loop in the Lua programming language. Which would print the following:
+
+
+
+*/
+
 
 for (const [index, foodName] of menu.entries()) {
   console.log(`${index + 1}: ${foodName}`);
