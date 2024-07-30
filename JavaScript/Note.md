@@ -431,9 +431,18 @@ console.log(restaurant.openingHours?.mon?.open); //This would print undefined
 console.log(restaurant.Order ? "Method exists" : "Method does not exist"); //This would print Method does not exist
 console.log(restaurant.Hello ? "Method exists" : "Method does not exist"); //This would print Method exists
 
+//As well as Arrays:
+let users = [{ name: "jonas", email: "blalalal@gmail.com" }];
+
+console.log(users[0]?.name ?? "Empty"); //Prints Jonas
+
+users = []
+
+console.log(users[0]?.name ?? "Empty"); //Prints Empty
+
+
 //----------------------Extra Tip-------------------------
 //Fun fact: This can be combined with the Ternary Operator:
-
 console.log(restaurant.openingHours?.mon?.open ? "Exist" : "Doesn't Exist"); //Will print Doesn't exist.
 
 
