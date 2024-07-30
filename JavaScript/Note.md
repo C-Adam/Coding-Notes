@@ -444,3 +444,22 @@ console.log(users[0]?.name ?? "Empty"); //Prints Empty
 //Fun fact: This can be combined with the Ternary Operator:
 console.log(restaurant.openingHours?.mon?.open ? "Exist" : "Doesn't Exist"); //Will print Doesn't exist.
 ```
+
+## Looping Objects
+
+```JavaScript
+const restaurants = {
+  openingHours: {
+    wednesday: {open: 12, close: 6}
+    thursday: {open: 9, close: 11},
+    friday: {open: 2, close: 7},
+  },
+}
+
+
+const days = Object.keys(restaurant.openingHours);
+for (const day of days) {
+  console.log(day);
+}
+
+```
