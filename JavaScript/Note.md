@@ -527,6 +527,6 @@ console.log(rest.get("Name")); //Will print Classico Italiano
 
 //With booleans as keys, we can do things like this:
 rest.set(false, "This is false!");
-console.log(rest.get(0 > 1));
+console.log(rest.get(0 > 1)); //Since 0 is not greater than 1, false is passed as the value and This is false! is printed.
 
 ```
