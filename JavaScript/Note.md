@@ -525,4 +525,8 @@ Map(3) {
 //To retrieve values, we use Map.get(key).
 console.log(rest.get("Name")); //Will print Classico Italiano
 
+//With booleans as keys, we can
+rest.set(false, "This is false!");
+console.log(rest.get(0 > 1));
+
 ```
