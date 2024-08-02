@@ -501,4 +501,17 @@ ordersSet.delete("Risotto")//Deletes the element within the set.
 
 console.log(ordersSet); //Will print {"Pizza", "Pasta", "Garlic Bread"}; Added Garlic Bread and deleted Risotto.
 
+ordersSet.clear() //Removes all elements in the set.
+
+```
+
+## Maps
+
+```JavaScript
+const rest = new Map(); //Creates the map
+
+rest.set("Name", "Classico Italiano");
+rest.set(1, "Rome, Italy");
+console.log(rest.set(2, "Lisbon, Portugal"));
+
 ```
