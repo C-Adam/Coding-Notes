@@ -538,4 +538,14 @@ rest.delete("Name");
 //Maps can even store arrays as keys. HOWEVER, the array needs to be stored in a variable. When using rest.get() on an array, we are accessing it through it's address in the Heap, not it's specific value.
 
 rest.set([1, 2], "Hello World")
+
+console.log(rest.get([1, 2])) //NOTE: This will print undefined because both arrays are not the same object in the heap.
+
+//We should do this instead:
+
+const myArray = [1, 2]
+
+rest.set(myArray, "Hello World");
+
+console.log(rest.get(myArray)); //Will print Hello World because we accessed the object directly through its address.
 ```
