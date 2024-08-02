@@ -522,4 +522,7 @@ Map(3) {
 }
 */
 
+//To retrieve values, we use Map.get(key).
+console.log(rest.get("Name")); //Will print Classico Italiano
+
 ```
