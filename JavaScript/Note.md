@@ -512,6 +512,14 @@ const rest = new Map(); //Creates the map
 
 rest.set("Name", "Classico Italiano"); //Take 2 inputs: Key, Value; Then puts them into the set.
 rest.set(1, "Rome, Italy"); //The key can be any type, boolean, number, string, etc.
-console.log(rest.set(2, "Lisbon, Portugal")); //When we call
+console.log(rest.set(2, "Lisbon, Portugal")); //When we call map.set(), not only is the pair added, but the map is also returned. This will print:
+
+/*
+Map(3) {
+  'Name' => 'Classico Italiano',
+  1 => 'Rome, Italy',
+  2 => 'Lisbon, Portugal'
+}
+*/
 
 ```
