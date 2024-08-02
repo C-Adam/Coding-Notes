@@ -529,4 +529,7 @@ console.log(rest.get("Name")); //Will print Classico Italiano
 rest.set(false, "This is false!");
 console.log(rest.get(0 > 1)); //Since 0 is not greater than 1, false is passed as the value and This is false! is printed.
 
+//We can check if a map has a certain key using:
+console.log(rest.has("categories")); //Prints false.
+
 ```
