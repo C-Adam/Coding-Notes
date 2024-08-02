@@ -494,4 +494,9 @@ const ordersSet = new Set(["Pizza", "Pasta", "Pizza", "Risotto"]); //A set only 
 console.log(ordersSet); //Will print {"Pizza", "Pasta", "Risotto"}; The second pizza value is removed
 
 console.log(ordersSet.has("Bread")); //Similar to array.includes(), this checks if an item is inside of a set.
+
+ordersSet.add("Garlic Bread");//The equivalent to array.push(); adding an item to the set
+
+console.log(ordersSet); //Will print {"Pizza", "Pasta", "Risotto", "Garlic Bread"};
+
 ```
