@@ -522,6 +522,30 @@ Map(3) {
 }
 */
 
+//We can also create sets by using nested arrays:
+const question = new Map([
+  ["question", "What is my name?"],
+  [1, "Adam"],
+  [2, "Bob"],
+  [3, "Fred"],
+  ["correct", 1],
+  [true, "Correct!"],
+  [false, "Try again!"],
+]);
+
+/*
+Which will print:
+Map(7) {
+  'question' => 'What is my name?',
+  1 => 'Adam',
+  2 => 'Bob',
+  3 => 'Fred',
+  'correct' => 1,
+  true => 'Correct!',
+  false => 'Try again!'
+}
+*/
+
 //To retrieve values, we use Map.get(key).
 console.log(rest.get("Name")); //Will print Classico Italiano
 
