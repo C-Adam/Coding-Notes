@@ -510,8 +510,8 @@ ordersSet.clear() //Removes all elements in the set.
 ```JavaScript
 const rest = new Map(); //Creates the map
 
-rest.set("Name", "Classico Italiano");
-rest.set(1, "Rome, Italy");
-console.log(rest.set(2, "Lisbon, Portugal"));
+rest.set("Name", "Classico Italiano"); //Take 2 inputs: Key, Value; Then puts them into the set.
+rest.set(1, "Rome, Italy"); //The key can be any type, boolean, number, string, etc.
+console.log(rest.set(2, "Lisbon, Portugal")); //When we call
 
 ```
