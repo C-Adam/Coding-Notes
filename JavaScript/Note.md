@@ -485,3 +485,13 @@ fri 11 23
 sat 0 24
 */
 ```
+
+## Sets
+
+```JavaScript
+const ordersSet = new Set(["Pizza", "Pasta", "Pizza", "Risotto"]); //A set only hold unique data
+
+console.log(ordersSet); //Will print {"Pizza", "Pasta", "Risotto"}; The second pizza value is removed
+
+console.log(ordersSet.has("Bread")); //Similar to array.includes(), this checks if an item is inside of a set.
+```
