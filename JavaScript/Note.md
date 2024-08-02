@@ -599,7 +599,10 @@ Map(3) {
 
 
 //----------------Iterating Over Maps-------------------
+//We can iterate over maps the same way as we do when destructuring an object in a for loop:
 
-
+for (const [key, value] of question) {
+  console.log(key, value);
+}
 
 ```
