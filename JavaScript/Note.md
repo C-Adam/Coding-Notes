@@ -575,4 +575,27 @@ const myArray = [1, 2]
 rest.set(myArray, "Hello World");
 
 console.log(rest.get(myArray)); //Will print Hello World because we accessed the object directly through its address.
+
+//----------UNIQUE TIP----------
+//Since Maps are created with nested arrays. We can create maps with Object.entries()
+const restaurant = {
+  openingHours: {
+    wednesday: {open: 12, close: 6}
+    thursday: {open: 9, close: 11},
+    friday: {open: 2, close: 7},
+  },
+}
+
+const anotherMap = new Map(Object.entries(restaurant.openingHours))
+
+//Which will print:
+
+/*
+Map(3) {
+  'thu' => { open: 12, close: 22 },
+  'fri' => { open: 11, close: 23 },
+  'sat' => { open: 0, close: 24 }
+}
+*/
+
 ```
