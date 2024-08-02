@@ -532,4 +532,7 @@ console.log(rest.get(0 > 1)); //Since 0 is not greater than 1, false is passed a
 //We can check if a map has a certain key using:
 console.log(rest.has("categories")); //Prints false.
 
+//We can remove key, value pairs using:
+console
+
 ```
