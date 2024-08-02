@@ -534,4 +534,8 @@ console.log(rest.has("categories")); //Prints false.
 
 //We can remove key, value pairs using rest.delete(key):
 rest.delete("Name");
+
+//Maps can even store arrays as keys. HOWEVER, the array needs to be stored in a variable. When using rest.get() on an array, we are accessing it through it's address in the Heap, not it's specific value.
+
+res
 ```
