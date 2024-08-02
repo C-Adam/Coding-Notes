@@ -497,6 +497,8 @@ console.log(ordersSet.has("Bread")); //Similar to array.includes(), this checks 
 
 ordersSet.add("Garlic Bread");//The equivalent to array.push(); adding an item to the set
 
-console.log(ordersSet); //Will print {"Pizza", "Pasta", "Risotto", "Garlic Bread"};
+ordersSet.delete("Risotto")//Deletes the element within the set.
+
+console.log(ordersSet); //Will print {"Pizza", "Pasta", "Garlic Bread"}; Added Garlic Bread and deleted Risotto.
 
 ```
