@@ -588,13 +588,12 @@ const restaurant = {
 
 const anotherMap = new Map(Object.entries(restaurant.openingHours))
 
-//Which will print:
-
 /*
+Which would print:
 Map(3) {
-  'thu' => { open: 12, close: 22 },
-  'fri' => { open: 11, close: 23 },
-  'sat' => { open: 0, close: 24 }
+  'wednesday' => { open: 12, close: 22 },
+  'thursday' => { open: 11, close: 23 },
+  'friday' => { open: 0, close: 24 }
 }
 */
 
