@@ -605,4 +605,5 @@ for (const [key, value] of question) {
   console.log(key, value);
 }
 
+//Also similar to objects, we can call map.keys() and map.values()
 ```
