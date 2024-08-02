@@ -537,5 +537,5 @@ rest.delete("Name");
 
 //Maps can even store arrays as keys. HOWEVER, the array needs to be stored in a variable. When using rest.get() on an array, we are accessing it through it's address in the Heap, not it's specific value.
 
-res
+rest.set([1, 2], "Hello World")
 ```
