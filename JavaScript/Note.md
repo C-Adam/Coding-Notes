@@ -625,4 +625,6 @@ myString.startsWith(/*string*/)
 myString.endsWith(/*string*/)
 myString.split("+") //Returns ["a", "very", "nice", "tool"]
 myString.join(/*Character that connects the string*/) //Takes in an array of strings and joins them with the provided string/character
+myString.padStart()
+myString.padEnd()
 ```
