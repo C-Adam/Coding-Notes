@@ -618,4 +618,5 @@ myString.slice(/*index*/) //Splits the string and returns the resulted string af
 myString.toLowerCase()
 myString.toUpperCase()
 myString.trim() //Removes whitespace in the string
+myString.replace()
 ```
