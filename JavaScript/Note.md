@@ -623,5 +623,5 @@ myString.replaceAll(/*string to replace*/, /*new string*/) //Replaces all existi
 myString.includes(/*string*/) //Returns boolean of whether the string contains the provided character
 myString.startsWith(/*string*/)
 myString.endsWith(/*string*/)
-myString.split()
+myString.split(/*character to split at*/) //Splits the string/Replaces the character provided with white space.
 ```
