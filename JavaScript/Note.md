@@ -607,3 +607,14 @@ for (const [key, value] of question) {
 
 //Also similar to objects, we can call map.keys() and map.values()
 ```
+
+## String Manipulation
+
+```JavaScript
+
+let myString = "Adam";
+
+myString.slice(/*index*/)
+
+
+```
