@@ -611,7 +611,7 @@ for (const [key, value] of question) {
 ## String Manipulation
 
 ```JavaScript
-let myString = "Adam";
+let myString = "a+very+nice+tool";
 
 myString.indexOf(/*string*/) //Returns the index where the letter/word was found
 myString.slice(/*index*/) //Splits the string and returns the resulted string after the index provided.
@@ -623,10 +623,5 @@ myString.replaceAll(/*string to replace*/, /*new string*/) //Replaces all existi
 myString.includes(/*string*/) //Returns boolean of whether the string contains the provided character
 myString.startsWith(/*string*/)
 myString.endsWith(/*string*/)
-
-myString.split(/*character to split at*/) //Returns an array containing individual strings that were split up at the character.
-//For example:
-let test = "a+very+nice+tool"
-test.split("+") //Returns ["a", "very", "nice", "tool"]
-
+myString.split("+") //Returns ["a", "very", "nice", "tool"]
 ```
