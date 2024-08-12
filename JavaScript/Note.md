@@ -623,5 +623,10 @@ myString.replaceAll(/*string to replace*/, /*new string*/) //Replaces all existi
 myString.includes(/*string*/) //Returns boolean of whether the string contains the provided character
 myString.startsWith(/*string*/)
 myString.endsWith(/*string*/)
-myString.split(/*character to split at*/) //Splits the string/Replaces the character provided with white space.
+
+myString.split(/*character to split at*/) //Returns an array containing individual strings that were split up at the character.
+//For example:
+let test = "a+very+nice+tool"
+test.split("+") //Returns ["a", "very", "nice", "tool"]
+
 ```
