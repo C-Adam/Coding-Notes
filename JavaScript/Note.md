@@ -615,4 +615,6 @@ let myString = "Adam";
 
 myString.indexOf(/*string*/) //Returns the index where the letter/word was found
 myString.slice(/*index*/) //Splits the string and returns the resulted string after the index provided.
+myString.toLowerCase()
+myString.toUpperCase()
 ```
