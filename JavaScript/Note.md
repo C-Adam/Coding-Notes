@@ -622,4 +622,5 @@ myString.replace(/*string to replace*/, /*new string*/)
 myString.replaceAll(/*string to replace*/, /*new string*/) //Replaces all existing instances of the string provided.
 myString.includes(/*string*/) //Returns boolean of whether the string contains the provided character
 myString.startsWith(/*string*/)
+myString.endsWith(/*string*/)
 ```
