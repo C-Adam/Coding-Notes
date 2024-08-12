@@ -614,6 +614,7 @@ for (const [key, value] of question) {
 
 let myString = "Adam";
 
+myString.indexOf(/*string*/)
 myString.slice(/*index*/)
 
 
