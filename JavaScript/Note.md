@@ -619,4 +619,5 @@ myString.toLowerCase()
 myString.toUpperCase()
 myString.trim() //Removes whitespace in the string
 myString.replace(/*string to replace*/, /*new string*/)
+myString.replaceAll(/*string to replace*/, /*new string*/) //Replaces all existing instances of the string provided.
 ```
