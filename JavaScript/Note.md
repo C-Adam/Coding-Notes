@@ -630,7 +630,7 @@ myString.padEnd(/*The desired length of the string*/, /*The character to pad tho
 myString.repeat(/*number of times to repeat*/) //Repeats the string x amount of times (console.log(myString.repeat(5)))
 ```
 
-## Deep Cloning Objects:
+## Deep Cloning Objects with Lodash:
 
 ```JavaScript
 /*To clone deep objects (objects that contain other objects) and ensure that the original object is not changed upon manipulation of the copy, we can use a JavaScript Library called Lodash.
@@ -671,7 +671,6 @@ Passenger2: {
   id: 87172467126,
   family: { mother: 'Neringa', father: 'Paul' }
 }
-
 */
 
 const passenger2 = _.cloneDeep(passenger1); //Using this method in the library, we can create a Deep Clone.
@@ -695,7 +694,8 @@ Passenger2: {
   id: 87172467126,
   family: { mother: 'Neringa', father: 'Paul' }
 }
-
 */
+
+/*As we can see above, in the first example when cloning the table with the assign method or spread operator, the mother value in the family object is affected in both the original and cloned object. To prevent this, we use Lodash. */
 
 ```
