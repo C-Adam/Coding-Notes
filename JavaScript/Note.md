@@ -629,3 +629,53 @@ myString.padStart(/*The desired length of the string*/, /*The character to pad t
 myString.padEnd(/*The desired length of the string*/, /*The character to pad those spaces*/) //Fills in the end of the selected string with the character provided until it is the desired length.
 myString.repeat(/*number of times to repeat*/) //Repeats the string x amount of times (console.log(myString.repeat(5)))
 ```
+
+## Deep Cloning Objects:
+
+```JavaScript
+/*To clone deep objects (objects that contain other objects) and ensure that the original object is not changed upon manipulation of the copy, we can use a JavaScript Library called Lodash.
+
+1. Run npm install lodash in the working directory
+2. Require the lodash library (preferably at the top of the code)
+*/
+
+const _ = require('lodash');
+
+const passenger1 = {
+  name: 'Adam',
+  id: 2312321736,
+  family: {
+    mother: 'Sigita',
+    father: 'Paul',
+  },
+};
+
+// const passenger2 = Object.assign({}, passenger1); //Will create a shallow clone
+
+// const passenger2 = { ...passenger1 }; //Will also only create a shallow clone
+
+const passenger2 = _.cloneDeep(passenger1); //Using this method in the library, we can create a Deep Clone.
+
+passenger2.name = 'Bob';
+passenger2.id = 87172467126;
+passenger2.family.mother = 'Neringa';
+
+console.log('Passenger1:', passenger1);
+console.log('Passenger2:', passenger2);
+
+/* Will print the following:
+
+Passenger1: {
+  name: 'Adam',
+  id: 2312321736,
+  family: { mother: 'Sigita', father: 'Paul' }
+}
+Passenger2: {
+  name: 'Bob',
+  id: 87172467126,
+  family: { mother: 'Neringa', father: 'Paul' }
+}
+
+*/
+
+```
