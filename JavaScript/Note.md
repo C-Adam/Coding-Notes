@@ -639,8 +639,6 @@ myString.repeat(/*number of times to repeat*/) //Repeats the string x amount of 
 2. Require the lodash library (preferably at the top of the code)
 */
 
-const _ = require('lodash');
-
 const passenger1 = {
   name: 'Adam',
   id: 2312321736,
@@ -651,7 +649,7 @@ const passenger1 = {
 };
 
  const passenger2 = Object.assign({}, passenger1); //Will create a shallow clone
- const passenger2 = { ...passenger1 }; //Will also only create a shallow clone
+//const passenger2 = { ...passenger1 }; //Will also only create a shallow clone
 
 passenger2.name = 'Bob';
 passenger2.id = 87172467126;
@@ -672,6 +670,10 @@ Passenger2: {
   family: { mother: 'Neringa', father: 'Paul' }
 }
 */
+
+//-----------------------------------Using Lodash-------------------------------------------
+
+const _ = require('lodash');
 
 const passenger2 = _.cloneDeep(passenger1); //Using this method in the library, we can create a Deep Clone.
 
@@ -697,5 +699,4 @@ Passenger2: {
 */
 
 /*As we can see above, in the first example when cloning the table with the assign method or spread operator, the mother value in the family object is affected in both the original and cloned object. To prevent this, we use Lodash. */
-
 ```
