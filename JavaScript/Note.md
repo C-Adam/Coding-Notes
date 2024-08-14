@@ -650,9 +650,29 @@ const passenger1 = {
   },
 };
 
-// const passenger2 = Object.assign({}, passenger1); //Will create a shallow clone
+ const passenger2 = Object.assign({}, passenger1); //Will create a shallow clone
+ const passenger2 = { ...passenger1 }; //Will also only create a shallow clone
 
-// const passenger2 = { ...passenger1 }; //Will also only create a shallow clone
+passenger2.name = 'Bob';
+passenger2.id = 87172467126;
+passenger2.family.mother = 'Neringa';
+
+console.log('Passenger1:', passenger1);
+console.log('Passenger2:', passenger2);
+
+/* Will print the following:
+Passenger1: {
+  name: 'Adam',
+  id: 2312321736,
+  family: { mother: 'Neringa', father: 'Paul' }
+}
+Passenger2: {
+  name: 'Bob',
+  id: 87172467126,
+  family: { mother: 'Neringa', father: 'Paul' }
+}
+
+*/
 
 const passenger2 = _.cloneDeep(passenger1); //Using this method in the library, we can create a Deep Clone.
 
