@@ -627,4 +627,6 @@ myString.split("+") //Returns ["a", "very", "nice", "tool"]
 myString.join(/*Character that connects the string*/) //Takes in an array of strings and joins them with the provided string/character
 myString.padStart(/*The desired length of the string*/, /*The character to pad those spaces*/) //Fills in the start of the selected string with the character provided until it is the desired length.
 myString.padEnd(/*The desired length of the string*/, /*The character to pad those spaces*/) //Fills in the end of the selected string with the character provided until it is the desired length.
+
+hello
 ```
