@@ -712,9 +712,9 @@ function Greet(greeting) {
 
 const greeterHey = Greet("Hey"); //The variable stores the function that is returned as well as the parameter [Function (anonymous)]. The anonymous is the greeting parameter
 
-greeterHey("Jonas");
+greeterHey("Jonas"); //We then call this function with the the name argument and it uses both parameters stored to print the full greeting to the console: Hey Jonas
 
-const arrGreet = greeting => name => console.log(`${greeting} ${name}`);
+const arrGreet = greeting => name => console.log(`${greeting} ${name}`); //This is how to return functions in arrow functions
 
 arrGreet("Hi")("Adam");
 
