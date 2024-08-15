@@ -700,3 +700,22 @@ Passenger2: {
 
 /*As we can see above, in the first example when cloning the table with the assign method or spread operator, the mother value in the family object is affected in both the original and cloned object. To prevent this, we use Lodash. */
 ```
+
+## Returning Functions:
+
+```JavaScript
+function Greet(greeting) {
+  return function (name) {
+    console.log(`${greeting} ${name}`);
+  };
+}
+
+const greeterHey = Greet("Hey"); //The variable stores the function that is returned as well as the parameter
+
+greeterHey("Jonas");
+
+const arrGreet = greeting => name => console.log(`${greeting} ${name}`);
+
+arrGreet("Hi")("Adam");
+
+```
