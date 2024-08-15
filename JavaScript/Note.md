@@ -630,7 +630,7 @@ myString.padEnd(/*The desired length of the string*/, /*The character to pad tho
 myString.repeat(/*number of times to repeat*/) //Repeats the string x amount of times (console.log(myString.repeat(5)))
 ```
 
-## Deep Cloning Objects with Lodash:
+## Deep Cloning Objects with Lodash
 
 ```JavaScript
 /*To clone deep objects (objects that contain other objects) and ensure that the original object is not changed upon manipulation of the copy, we can use a JavaScript Library called Lodash.
@@ -701,7 +701,7 @@ Passenger2: {
 /*As we can see above, in the first example when cloning the table with the assign method or spread operator, the mother value in the family object is affected in both the original and cloned object. To prevent this, we use Lodash. */
 ```
 
-## Returning Functions:
+## Returning Functions
 
 ```JavaScript
 function Greet(greeting) {
@@ -766,4 +766,16 @@ Book.apply(eurowings, flightData)
 
 /*NOTE: Apply is not that useful since we can simply use the spread operator in a call method*/
 Book.call(eurowings, ...flightData)
+```
+
+## The bind method
+
+```JavaScript
+//Similar to call and apply, the bind method
+const BookEW = Book.bind(eurowings);
+BookEW(523, "Adam Cooper");
+
+const BookEW23 = Book.bind(eurowings, 523);
+BookEW23("Adam Cooper");
+
 ```
