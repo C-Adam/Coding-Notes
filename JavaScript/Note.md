@@ -771,7 +771,7 @@ Book.call(eurowings, ...flightData)
 ## The bind method
 
 ```JavaScript
-//Similar to call and apply, the bind method
+//The bind method has the same functionality as the call and apply method however, we can
 const BookEW = Book.bind(eurowings);
 BookEW(523, "Adam Cooper");
 
