@@ -749,9 +749,9 @@ const eurowings = {
   bookings: [],
 };
 
-const Book = lufthansa.Book;
+const Book = lufthansa.Book; //Copying the function to a variable
 
-// Book(23, "Adam Cooper");
+Book(23, "Adam Cooper"); //We get an error calling this because functio
 
 Book.call(eurowings, 23, "Adam Cooper");
 console.log(eurowings);
