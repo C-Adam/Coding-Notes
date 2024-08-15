@@ -763,4 +763,7 @@ console.log(eurowings);
 
 const flightData = [583, "George Cooper"] //Array of arguments
 Book.apply(eurowings, flightData)
+
+/*NOTE: Apply is not that useful since we can simply use the spread operator in a call method*/
+Book.call(eurowings, ...flightData)
 ```
