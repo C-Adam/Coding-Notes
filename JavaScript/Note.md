@@ -725,6 +725,7 @@ arrGreet("Hi")("Adam");
 ## The call method
 
 ```JavaScript
+//Creating an airline object that has a method that creates bookings
 const lufthansa = {
   airline: "Lufthansa",
   iataCode: "LH",
@@ -740,9 +741,7 @@ const lufthansa = {
   },
 };
 
-// lufthansa.Book(239, "Adam Cooper");
-// console.log(lufthansa);
-
+//Assume however, that we want to create a new airline but do not want to copy and paste the function from one object to the other since it is bad practice.
 const eurowings = {
   airline: "Eurowings",
   iataCode: "EW",
@@ -751,7 +750,7 @@ const eurowings = {
 
 const Book = lufthansa.Book; //Copying the function to a variable
 
-Book(23, "Adam Cooper"); //We get an error calling this because functio
+Book(23, "Adam Cooper"); //We get an error calling this because in regular function calls, the "this" keyword is undefined.
 
 Book.call(eurowings, 23, "Adam Cooper");
 console.log(eurowings);
