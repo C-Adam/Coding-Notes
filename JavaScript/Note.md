@@ -710,7 +710,7 @@ function Greet(greeting) {
   };
 }
 
-const greeterHey = Greet("Hey"); //The variable stores the function that is returned as well as the parameter
+const greeterHey = Greet("Hey"); //The variable stores the function that is returned as well as the parameter [Function (anonymous)]. The anonymous is the greeting parameter
 
 greeterHey("Jonas");
 
