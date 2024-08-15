@@ -754,7 +754,7 @@ const Book = lufthansa.Book;
 //However, we get an error calling this because in regular function calls, the "this" keyword is undefined because since we are not passing in an object, how would the function know which airline to run the book function on.
 Book(23, "Adam Cooper");
 
-//To fix this issue, we use the call method. The first parameter
+//To fix this issue, we use the call method. The first parameter is
 Book.call(eurowings, 23, "Adam Cooper");
 console.log(eurowings);
 
