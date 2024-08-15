@@ -741,17 +741,20 @@ const lufthansa = {
   },
 };
 
-//Assume however, that we want to create a new airline but do not want to copy and paste the function from one object to the other since it is bad practice.
+//Assume however, that we want to create a new airline but do not want to copy and paste the Book function from the first object since it is bad practice.
 const eurowings = {
   airline: "Eurowings",
   iataCode: "EW",
   bookings: [],
 };
 
-const Book = lufthansa.Book; //Copying the function to a variable
+//We can then store the objects function in another variable
+const Book = lufthansa.Book;
 
-Book(23, "Adam Cooper"); //We get an error calling this because in regular function calls, the "this" keyword is undefined.
+//However, we get an error calling this because in regular function calls, the "this" keyword is undefined because since we are not passing in an object, how would the function know which airline to run the book function on.
+Book(23, "Adam Cooper");
 
+//To fix this issue, we use the call method. The first parameter
 Book.call(eurowings, 23, "Adam Cooper");
 console.log(eurowings);
 
