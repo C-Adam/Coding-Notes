@@ -714,6 +714,8 @@ const greeterHey = Greet("Hey"); //The variable stores the function that is retu
 
 greeterHey("Jonas"); //We then call this function with the the name argument and it uses both parameters stored to print the full greeting to the console: Hey Jonas
 
+Greet("Hey")("Adam");//This is the same as the above since we are calling both functions however it is more compact but less readable.
+
 const arrGreet = greeting => name => console.log(`${greeting} ${name}`); //This is how to return functions in arrow functions
 
 arrGreet("Hi")("Adam");
