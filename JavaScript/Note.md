@@ -722,7 +722,7 @@ arrGreet("Hi")("Adam");
 
 ```
 
-## The call method
+## The call and apply method
 
 ```JavaScript
 //Creating an airline object that has a method that creates bookings
@@ -758,4 +758,7 @@ Book(23, "Adam Cooper");
 Book.call(eurowings, 23, "Adam Cooper");
 console.log(eurowings);
 
+//-----------------------APPLY-----------------------
+const flightData = [583, "George Cooper"]
+Book.apply(eurowings, flightData)
 ```
