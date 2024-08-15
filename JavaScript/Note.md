@@ -721,3 +721,39 @@ const arrGreet = greeting => name => console.log(`${greeting} ${name}`); //This 
 arrGreet("Hi")("Adam");
 
 ```
+
+## The call method
+
+```JavaScript
+const lufthansa = {
+  airline: "Lufthansa",
+  iataCode: "LH",
+  bookings: [],
+  Book: function (flightNum, passengerName) {
+    console.log(
+      `${passengerName} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}`
+    );
+    this.bookings.push({
+      flight: `${this.iataCode}${flightNum}`,
+      passengerName,
+    });
+  },
+};
+
+// lufthansa.Book(239, "Adam Cooper");
+// console.log(lufthansa);
+
+const eurowings = {
+  airline: "Eurowings",
+  iataCode: "EW",
+  bookings: [],
+};
+
+const Book = lufthansa.Book;
+
+// Book(23, "Adam Cooper");
+
+Book.call(eurowings, 23, "Adam Cooper");
+console.log(eurowings);
+
+```
