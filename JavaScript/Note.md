@@ -777,5 +777,4 @@ BookEW(523, "Adam Cooper");
 
 const BookEW23 = Book.bind(eurowings, 523);
 BookEW23("Adam Cooper");
-
 ```
