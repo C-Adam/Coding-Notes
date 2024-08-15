@@ -759,6 +759,8 @@ Book.call(eurowings, 23, "Adam Cooper");
 console.log(eurowings);
 
 //-----------------------APPLY-----------------------
-const flightData = [583, "George Cooper"]
+//The apply method is the same as the call method. HOWEVER, instead of the parameters of the function being passed in as separate arguments, the apply method takes an array of the arguments and unpacks them as required parameters.
+
+const flightData = [583, "George Cooper"] //Array of arguments
 Book.apply(eurowings, flightData)
 ```
