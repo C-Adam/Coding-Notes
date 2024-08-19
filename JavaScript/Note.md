@@ -778,7 +778,7 @@ BookEW(523, "Adam Cooper");
 const BookEW23 = Book.bind(eurowings, 523);
 BookEW23("Adam Cooper");
 
-//-----------------------------IMPORTANT----------------------------
+//------------------------------IMPORTANT------------------------------------
 //When using event listeners, the "this" keyword points to the element that the event listener is acting on. However we can use the bind method to reassign the "this" keyword to a specific object.
 lufthansa.planes = 300;
 lufthansa.BuyPlane = function () {
@@ -791,4 +791,13 @@ document.querySelector(".buy").addEventListener("click", lufthansa.BuyPlane); //
 document.querySelector(".buy").addEventListener("click", lufthansa.BuyPlane.bind(lufthansa)); //This on the other hand will run as needed because we binded the "this" keyword to the specific object.
 
 //We also cannot use the "call" method above because adding the call method runs the function which causes an error since the function provided is supposed to be a callback
+
+//-----------------------------Partial Application---------------------------
+const addTax = (rate, value) => value + value * rate;
+console.log(addTax(0.1, 200));
+
+const addVAT = addTax.bind(null, [0.23]); //Instead of typing out a new function and pre-setting the rate parameter, we can use the bind method, provide null as the "this" keyword, then provide the  default arguments.
+
+console.log(addVAT(100)); //Prints 123
+
 ```
