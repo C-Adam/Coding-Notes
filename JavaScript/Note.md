@@ -806,6 +806,7 @@ console.log(addVAT(100));
 ## Immediately Invoked Function Expression
 
 ```JavaScript
+//This function is not assigned to a variable nor has a function declaration name which means it cannot be re-called. However, it can be ran once and immediately when put into parentheses since JavaScript sees this as an expression.
 (function () {
   console.log("This will never be run again");
 })();
