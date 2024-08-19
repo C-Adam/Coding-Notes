@@ -778,13 +778,15 @@ BookEW(523, "Adam Cooper");
 const BookEW23 = Book.bind(eurowings, 523);
 BookEW23("Adam Cooper");
 
-//---------------IMPORTANT---------------------
+//-----------------------------IMPORTANT----------------------------
+//When using event listeners, the "this" keyword points to the element that the event listener is acting on. However we can use the bind method to reassign the "this" keyword to a specific object.
 lufthansa.planes = 300;
 lufthansa.BuyPlane = function () {
   this.planes++;
   console.log(this.planes);
 };
 
-document.querySelector(".buy").addEventListener("click", lufthansa.BuyPlane.bind(lufthansa));
+document.querySelector(".buy").addEventListener("click", lufthansa.BuyPlane); //This would bring Not a Number because the "this" keyword points to the buy button which cannot be incremented.
 
+document.querySelector(".buy").addEventListener("click", lufthansa.BuyPlane.bind(lufthansa)); //This on the other hand will run as needed because we binded the "this" keyword to the specific object.
 ```
