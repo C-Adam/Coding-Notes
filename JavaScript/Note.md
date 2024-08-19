@@ -789,4 +789,6 @@ lufthansa.BuyPlane = function () {
 document.querySelector(".buy").addEventListener("click", lufthansa.BuyPlane); //This would bring Not a Number because the "this" keyword points to the buy button which cannot be incremented.
 
 document.querySelector(".buy").addEventListener("click", lufthansa.BuyPlane.bind(lufthansa)); //This on the other hand will run as needed because we binded the "this" keyword to the specific object.
+
+//We also cannot use the "call" method above because adding the call method runs the function which causes an error since the function provided is supposed to be a callback
 ```
