@@ -777,4 +777,14 @@ BookEW(523, "Adam Cooper");
 
 const BookEW23 = Book.bind(eurowings, 523);
 BookEW23("Adam Cooper");
+
+//---------------IMPORTANT---------------------
+lufthansa.planes = 300;
+lufthansa.BuyPlane = function () {
+  this.planes++;
+  console.log(this.planes);
+};
+
+document.querySelector(".buy").addEventListener("click", lufthansa.BuyPlane.bind(lufthansa));
+
 ```
