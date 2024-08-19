@@ -793,15 +793,12 @@ document.querySelector(".buy").addEventListener("click", lufthansa.BuyPlane.bind
 //We also cannot use the "call" method above because adding the call method runs the function which causes an error since the function provided is supposed to be a callback
 
 //-----------------------------Partial Application---------------------------
-
 //Initial Function
 const addTax = (rate, value) => value + value * rate;
-
 console.log(addTax(0.1, 200));
 
-//Function with same functionality as the one above however the rate is constant so instead of constantly passing in the same argument each time, we create a new function with the bind method.
+/*Function with same functionality as the one above however the rate is constant. Instead of constantly passing in the same argument each time, we create a new function with the bind method.
+Provide null as the "this" keyword, then provide the constant/default arguments.*/
 const addVAT = addTax.bind(null, [0.23]);
-//Instead of typing out a new function and pre-setting the rate parameter, we can use the bind method, provide null as the "this" keyword, then provide the  default arguments.
-
 console.log(addVAT(100));
 ```
