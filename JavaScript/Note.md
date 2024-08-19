@@ -810,4 +810,7 @@ console.log(addVAT(100));
 (function () {
   console.log("This will never be run again");
 })();
+
+//The same can be done for arrow functions
+(() => console.log("This will never be run again"))();
 ```
