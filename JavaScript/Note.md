@@ -802,3 +802,11 @@ Provide null as the "this" keyword, then provide the constant/default arguments.
 const addVAT = addTax.bind(null, [0.23]);
 console.log(addVAT(100));
 ```
+
+## Immediately Invoked Function Expression
+
+```JavaScript
+(function () {
+  console.log("This will never be run again");
+})();
+```
