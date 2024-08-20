@@ -835,4 +835,25 @@ Booker();//Prints 2 passengers
 Booker();//Prints 3 passengers
 
 //The passenger count variable is stored in a closure in the Booker scope chain and is updated each time the function is ran.
+
+let f;
+
+const g = function () {
+  const a = 23;
+  f = function () {
+    console.log(a * 2);
+  };
+};
+
+const h = function () {
+  const b = 777;
+  f = function () {
+    console.log(b * 20);
+  };
+};
+
+g();
+f();
+h();
+f();
 ```
