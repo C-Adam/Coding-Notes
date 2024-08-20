@@ -814,3 +814,22 @@ console.log(addVAT(100));
 //The same can be done for arrow functions
 (() => console.log("This will never be run again"))();
 ```
+
+## Closures
+
+```JavaScript
+function SecureBooking() {
+  let passengerCount = 0;
+
+  return function () {
+    passengerCount++;
+    console.log(`${passengerCount} passengers`);
+  };
+}
+
+const Booker = SecureBooking();
+
+Booker();
+Booker();
+Booker();
+```
