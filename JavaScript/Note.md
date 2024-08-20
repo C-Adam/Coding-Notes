@@ -840,20 +840,20 @@ let f;
 
 const g = function () {
   const a = 23;
-  f = function () {
+  f = function () { //Re-assign f
     console.log(a * 2);
   };
 };
 
 const h = function () {
   const b = 777;
-  f = function () {
+  f = function () { //Re-assign f once again
     console.log(b * 20);
   };
 };
 
-g();
-f();
-h();
-f();
+g(); //Run it to initialize f as a function, a as 23, and put "a" into f's closure.
+f(); //Prints 46 because f still has access to the a variable
+h(); //Run it to rewrite f as a different function, b as 777, and put replace "a" with "b" in f's closure.
+f(); //Prints 1554
 ```
