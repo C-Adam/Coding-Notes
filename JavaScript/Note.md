@@ -818,6 +818,7 @@ console.log(addVAT(100));
 ## Closures
 
 ```JavaScript
+//Informal Definition of Closure: a closure is like a backpack that a function carries. This backpack has all of the variables that were present in the environment where the function was created.
 function SecureBooking() {
   let passengerCount = 0;
 
@@ -829,7 +830,10 @@ function SecureBooking() {
 
 const Booker = SecureBooking();
 
-Booker();
-Booker();
-Booker();
+Booker();//Prints 1 passengers
+Booker();//Prints 2 passengers
+Booker();//Prints 3 passengers
+
+
+//The passenger count variable is stored in a closure in the Booker execution context
 ```
