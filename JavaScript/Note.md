@@ -834,6 +834,5 @@ Booker();//Prints 1 passengers
 Booker();//Prints 2 passengers
 Booker();//Prints 3 passengers
 
-
-//The passenger count variable is stored in a closure in the Booker execution context
+//The passenger count variable is stored in a closure in the Booker scope chain and is updated each time the function is ran.
 ```
