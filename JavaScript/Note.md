@@ -857,3 +857,23 @@ f(); //Prints 46 because f still has access to the a variable
 h(); //Run it to rewrite f as a different function, b as 777, and put replace "a" with "b" in f's closure.
 f(); //Prints 1554
 ```
+
+## setTimeout
+
+```JavaScript
+//Functions similarly to the wait method in Lua however, a callback function is required as an argument.
+
+function BoardPassengers(n, wait) {
+  const perGroup = n / 3;
+
+  setTimeout(function () {
+    console.log(`We are now boarding all ${n} passengers`);
+    console.log(`There are 3 groups, each with ${perGroup} passengers`);
+  }, wait * 1000);
+
+  console.log(`Will start boarding in ${wait} seconds`);
+}
+
+BoardPassengers(180, 3)
+
+```
