@@ -861,7 +861,7 @@ f(); //Prints 1554
 ## setTimeout
 
 ```JavaScript
-//Functions similarly to the task.spawn() method in Lua however, a callback function is required as an argument.
+//Functions similarly to the task.spawn() method in Lua however the wait time is required as an argument.
 
 function BoardPassengers(n, wait) {
   const perGroup = n / 3;
