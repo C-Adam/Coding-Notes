@@ -862,18 +862,17 @@ f(); //Prints 1554
 
 ```JavaScript
 //Functions similarly to the task.spawn() method in Lua however the wait time is required as an argument.
-
+//Multi-threading
 function BoardPassengers(n, wait) {
   const perGroup = n / 3;
 
-  setTimeout(function () {
+  setTimeout(function () { //This will run after 3 seconds
     console.log(`We are now boarding all ${n} passengers`);
     console.log(`There are 3 groups, each with ${perGroup} passengers`);
-  }, wait * 1000);
+    }, wait * 1000); //The argument takes in milliseconds which is why we multiply by 1000 to convert the desired time into seconds.
 
-  console.log(`Will start boarding in ${wait} seconds`);
+  console.log(`Will start boarding in ${wait} seconds`); //This will run before the setTimeout function
 }
 
 BoardPassengers(180, 3)
-
 ```
