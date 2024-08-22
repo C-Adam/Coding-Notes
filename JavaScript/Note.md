@@ -888,4 +888,8 @@ let arr = ['a', 'b', 'c', 'd', 'e'];
 console.log(arr.slice(2, 4)); //Prints ["c", "d"]
 
 //-------------------------------array.splice()------------------------------------------
+let arr = ['a', 'b', 'c', 'd', 'e'];
+
+console.log(arr.splice(2));
+console.log(arr);
 ```
