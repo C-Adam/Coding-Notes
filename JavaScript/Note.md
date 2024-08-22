@@ -876,3 +876,14 @@ function BoardPassengers(n, wait) {
 
 BoardPassengers(180, 3)
 ```
+
+## Array Methods
+
+```JavaScript
+
+//array.slice()
+let arr = ['a', 'b', 'c', 'd', 'e'];
+console.log(arr.slice(2, 4)); //Prints ["c", "d"]
+
+
+```
