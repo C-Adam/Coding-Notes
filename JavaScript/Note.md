@@ -906,5 +906,6 @@ console.log(arr.reverse()) //Prints ['e', 'd', 'c', 'b', 'a']
 let arr = ['a', 'b', 'c'];
 let others = ['d', 'e', 'f'];
 
+//This method creates a new array (does not mutate original) so it should be stored in a variable for reference.
 console.log(arr.concat(others)); //Prints ['a', 'b', 'c', 'd', 'e', 'f']
 ```
