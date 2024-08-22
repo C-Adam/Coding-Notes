@@ -915,7 +915,9 @@ console.log(arr.join('-')); //Prints a string: a-b-c
 
 
 //-------------------------------array.at()------------------------------------------
+//Functions the exact same as the bracket notation arr[0] however we can get the last element of the array using -1 only with the at method.
 let arr = [23, 11, 64];
-
-console.log(arr.at(-1));
+arr[-1]//Prints undefined
+arr[arr.length - 1] //Prints 64 (only way we can get the last index with bracket notation)
+arr.at(-1);//Prints 64
 ```
