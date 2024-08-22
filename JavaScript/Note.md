@@ -903,8 +903,8 @@ console.log(arr.reverse()) //Prints ['e', 'd', 'c', 'b', 'a']
 
 
 //-------------------------------array.concat()------------------------------------------
-let arr = ['a', 'b', 'c', 'd', 'e'];
-let others = ['f', 'g', 'h', 'i', 'j'];
+let arr = ['a', 'b', 'c'];
+let others = ['d', 'e', 'f'];
 
-console.log(arr.concat(others));
+console.log(arr.concat(others)); //Prints ['a', 'b', 'c', 'd', 'e', 'f']
 ```
