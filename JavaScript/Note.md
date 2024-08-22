@@ -892,4 +892,7 @@ console.log(arr.slice(2, 4)); //Prints ["c", "d"]
 let arr = ['a', 'b', 'c', 'd', 'e'];
 console.log(arr.splice(2)); //Prints ["c", "d", "e"]
 console.log(arr); //Prints ["a", "b"]
+
+arr.splice(1, 2)//The first parameter is where the splice starts; The second parameter is the number of indexes to remove.
+
 ```
