@@ -920,4 +920,10 @@ let arr = [23, 11, 64];
 arr[-1]//Prints undefined
 arr[arr.length - 1] //Prints 64 (only way we can get the last index with bracket notation)
 arr.at(-1);//Prints 64
+
+
+//-------------------------------array.forEach()------------------------------------------
+movements.forEach(function (value, index) {
+  console.log(`index ${index}, value ${value}`);
+});
 ```
