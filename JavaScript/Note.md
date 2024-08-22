@@ -887,13 +887,11 @@ let arr = ['a', 'b', 'c', 'd', 'e'];
 //Starts at index 2 and includes the value however when we end on 4, the value is not included.s
 console.log(arr.slice(2, 4)); //Prints ["c", "d"]
 
+
 //-------------------------------array.splice()------------------------------------------
 //Similar to the slice method however, this method mutates the array. Values that are being spliced are taken off of the original array.
+//          0    1    2    3    4
 let arr = ['a', 'b', 'c', 'd', 'e'];
-console.log(arr.splice(2)); //Prints ["c", "d", "e"]
-console.log(arr); //Prints ["a", "b"]
-
-console.log(arr.splice(1, 2)); //The first parameter is where the splice starts; The second parameter is the number of indexes to remove. Prints []
-console.log(arr); //Prints ["a", "b"]
-
+console.log(arr.splice(0, 2)); //The first parameter is where the splice starts; The second parameter(optional) is the number of indexes to remove. Prints ["a", "b"]
+console.log(arr); //Prints ["c", "d", "e"]
 ```
