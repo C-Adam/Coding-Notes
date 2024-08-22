@@ -880,10 +880,12 @@ BoardPassengers(180, 3)
 ## Array Methods
 
 ```JavaScript
-
-//array.slice()
+//-------------------------------array.slice()------------------------------------------
+//First parameter is where the slice starts and second parameter(optional) is where the slice should end.
+//          0    1    2    3    4
 let arr = ['a', 'b', 'c', 'd', 'e'];
+//Starts at index 2 and includes the value however when we end on 4, the value is not included.s
 console.log(arr.slice(2, 4)); //Prints ["c", "d"]
 
-
+//-------------------------------array.slice()------------------------------------------
 ```
