@@ -923,6 +923,8 @@ arr.at(-1);//Prints 64
 
 
 //-------------------------------array.forEach()------------------------------------------
+//Similar to the for-of loop however this loop runs the callback function for each index of the entire array without interruption (THIS LOOP CANNOT BE BROKEN OUT OF)
+//The forEach method also can be used on maps and sets.
 movements.forEach(function (value, index) {
   console.log(`index ${index}, value ${value}`);
 });
