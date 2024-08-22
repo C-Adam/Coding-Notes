@@ -888,8 +888,8 @@ let arr = ['a', 'b', 'c', 'd', 'e'];
 console.log(arr.slice(2, 4)); //Prints ["c", "d"]
 
 //-------------------------------array.splice()------------------------------------------
+//Similar to the slice method however, this method mutates the array. Values that are being spliced are taken off of the original array.
 let arr = ['a', 'b', 'c', 'd', 'e'];
-
-console.log(arr.splice(2));
-console.log(arr);
+console.log(arr.splice(2)); //Prints ["c", "d", "e"]
+console.log(arr); //Prints ["a", "b"]
 ```
