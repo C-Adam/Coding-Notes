@@ -900,4 +900,11 @@ console.log(arr); //Prints ["c", "d", "e"]
 //NOTE: This method mutates the original array. Make a copy before reversing an array if needed.
 let arr = ['a', 'b', 'c', 'd', 'e'];
 console.log(arr.reverse()) //Prints ['e', 'd', 'c', 'b', 'a']
+
+
+//-------------------------------array.concat()------------------------------------------
+let arr = ['a', 'b', 'c', 'd', 'e'];
+let others = ['f', 'g', 'h', 'i', 'j'];
+
+console.log(arr.concat(others));
 ```
