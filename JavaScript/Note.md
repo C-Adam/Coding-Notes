@@ -897,6 +897,7 @@ console.log(arr); //Prints ["c", "d", "e"]
 
 
 //-------------------------------array.reverse()------------------------------------------
+//NOTE: This method mutates the original array. Make a copy before reversing an array if needed.
 let arr = ['a', 'b', 'c', 'd', 'e'];
 console.log(arr.reverse()) //Prints ['e', 'd', 'c', 'b', 'a']
 ```
