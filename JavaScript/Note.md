@@ -887,5 +887,5 @@ let arr = ['a', 'b', 'c', 'd', 'e'];
 //Starts at index 2 and includes the value however when we end on 4, the value is not included.s
 console.log(arr.slice(2, 4)); //Prints ["c", "d"]
 
-//-------------------------------array.slice()------------------------------------------
+//-------------------------------array.splice()------------------------------------------
 ```
