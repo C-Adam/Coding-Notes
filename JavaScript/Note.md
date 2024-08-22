@@ -894,4 +894,9 @@ console.log(arr.slice(2, 4)); //Prints ["c", "d"]
 let arr = ['a', 'b', 'c', 'd', 'e'];
 console.log(arr.splice(0, 2)); //The first parameter is where the splice starts; The second parameter(optional) is the number of indexes to remove. Prints ["a", "b"]
 console.log(arr); //Prints ["c", "d", "e"]
+
+
+//-------------------------------array.reverse()------------------------------------------
+let arr = ['a', 'b', 'c', 'd', 'e'];
+console.log(arr.reverse()) //Prints ['e', 'd', 'c', 'b', 'a']
 ```
