@@ -930,7 +930,7 @@ movements.forEach(function (value, index) {
 });
 ```
 
-## InsertAdjacentHtml
+## element.insertAdjacentHTML()
 
 ```JavaScript
 /*We can insert html into an page element using the insertAdjacentHtml method. The first parameter is the location where the HTML should be inserted (see: mdn insertAdjacentHtml for details). While the second parameter is the html string to be inserted.*/
@@ -942,4 +942,12 @@ const html = `
 </div>`;
 
 containerMovements.insertAdjacentHTML("afterbegin", html);
+```
+
+## element.innerHTml()
+
+```JavaScript
+//We can see/manipulate an elements html code directly in JavaScript
+
+const myElement = document.querySelector(".)
 ```
