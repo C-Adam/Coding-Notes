@@ -929,3 +929,18 @@ movements.forEach(function (value, index) {
   console.log(`index ${index}, value ${value}`);
 });
 ```
+
+## element.insertAdjacentHTML()
+
+```JavaScript
+    const html = `
+    <div class="movements__row">
+        <div class="movements__type movements__type--${type}">${
+      index + 1
+    } ${type}</div>
+        <div class="movements__value">${value}€</div>
+    </div>`;
+
+    containerMovements.insertAdjacentHTML("afterbegin", html);
+
+```
