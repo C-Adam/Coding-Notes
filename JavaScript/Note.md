@@ -930,10 +930,10 @@ movements.forEach(function (value, index) {
 });
 ```
 
-## element.insertAdjacentHTML()
+## InsertAdjacentHtml
 
 ```JavaScript
-//We can insert html into an page element using the insertAdjacentHtml method. The first parameter is the location where the HTML should be inserted (see mdn )
+/*We can insert html into an page element using the insertAdjacentHtml method. The first parameter is the location where the HTML should be inserted (see: mdn insertAdjacentHtml for details). While the second parameter is the html string to be inserted.*/
 const html = `
 <div class="movements__row">
   <div class="movements__type movements__type--${type}">${index + 1} ${type}
