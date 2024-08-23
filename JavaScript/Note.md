@@ -949,5 +949,8 @@ containerMovements.insertAdjacentHTML("afterbegin", html);
 ```JavaScript
 //We can see/manipulate an elements html code directly in JavaScript
 
-const myElement = document.querySelector(".)
+const myElement = document.querySelector(".movements")
+
+console.log(myElement.innerHtml) //Will print out the entire html of th element
+myElement.innerHtml = "" //Rewrites the element's html code; In this case, deletes all of the html.
 ```
