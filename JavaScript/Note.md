@@ -933,14 +933,13 @@ movements.forEach(function (value, index) {
 ## element.insertAdjacentHTML()
 
 ```JavaScript
-    const html = `
-    <div class="movements__row">
-        <div class="movements__type movements__type--${type}">${
-      index + 1
-    } ${type}</div>
-        <div class="movements__value">${value}€</div>
-    </div>`;
+//We can insert html into an page element using the insertAdjacentHtml method. The first parameter is the location where the HTML should be inserted (see mdn )
+const html = `
+<div class="movements__row">
+  <div class="movements__type movements__type--${type}">${index + 1} ${type}
+  </div>
+  <div class="movements__value">${value}€</div>
+</div>`;
 
-    containerMovements.insertAdjacentHTML("afterbegin", html);
-
+containerMovements.insertAdjacentHTML("afterbegin", html);
 ```
