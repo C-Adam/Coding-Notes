@@ -1,5 +1,11 @@
 ## LED Pins
 
+Need:
+
+1. M-M Jumper Wire to connect the led from breadboard to arduino pin.
+2. 200Ω resistor
+3. Ground the resistor to the bread board
+
 ```Cpp
 int redLed = 11; //The number the pin is connected to on the board
 
