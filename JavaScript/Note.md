@@ -951,6 +951,6 @@ containerMovements.insertAdjacentHTML("afterbegin", html);
 
 const myElement = document.querySelector(".movements")
 
-console.log(myElement.innerHtml) //Will print out the entire html of th element
+console.log(myElement.innerHtml) //Will print out the entire html of the element
 myElement.innerHtml = "" //Rewrites the element's html code; In this case, deletes all of the html.
 ```
