@@ -25,8 +25,15 @@ void loop() {
 
 Need:
 
-1. M-M Jumper Wire to connect the led from breadboard to arduino pin.
-2. 200Ω resistor connected to the negative side of led (be sure to ground the resistor)
+1. Button switch \*1
+2. Red M5 LED \*1
+3. 220Ω resistor \*1
+4. 10KΩ resistor *1
+   Breadboard *1
+   USB cable _1
+   Breadboard jumper wire _ 6
+5. M-M Jumper Wire to connect the led from breadboard to arduino pin.
+6. 200Ω resistor connected to the negative side of led (be sure to ground the resistor)
 
 ```Cpp
 int ledPin = 7;
