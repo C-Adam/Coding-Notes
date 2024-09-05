@@ -15,3 +15,26 @@ void loop() {
   digitalWrite(redLed, LOW); //Turns off red LED
 }
 ```
+
+## Buttons
+
+```Cpp
+int ledPin = 7;
+int buttonPin = 2;
+
+void setup() {
+  // put your setup code here, to run once:
+  //Initializing the modules to their appropriate pins.
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT);
+}
+
+void loop() {
+  //put your main code here, to run repeatedly:
+  if(digitalRead(buttonPin) == HIGH){ //Checks the button state
+    digitalWrite(ledPin, HIGH); //Turn on light
+  } else {
+    digitalWrite(ledPin, LOW); //Turn off light
+  }
+}
+```
