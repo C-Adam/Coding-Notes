@@ -944,7 +944,7 @@ const html = `
 containerMovements.insertAdjacentHTML("afterbegin", html);
 ```
 
-## element.innerHTml()
+## element.innerHTML()
 
 ```JavaScript
 //We can see/manipulate an elements html code directly in JavaScript
