@@ -937,6 +937,11 @@ const doubledNumbers = numbers.map(function(num){
 })
 
 console.log(doubledNumbers) //[4, 8, 12, 16]
+
+//-------------------------------array.filter()------------------------------------------
+//
+
+
 ```
 
 ## element.insertAdjacentHTML()
