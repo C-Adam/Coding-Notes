@@ -925,9 +925,18 @@ arr.at(-1);//Prints 64
 //-------------------------------array.forEach()------------------------------------------
 //Similar to the for-of loop however this loop runs the callback function for each index of the entire array without interruption (THIS LOOP CANNOT BE BROKEN OUT OF)
 //The forEach method also can be used on maps and sets.
-movements.forEach(function (value, index) {
+arr.forEach(function (value, index) {
   console.log(`index ${index}, value ${value}`);
 });
+
+//-------------------------------array.map()------------------------------------------
+//Returns a new array containing the results of applying an operation on all original array elements
+let numbers = [2, 4, 6, 8]
+const doubledNumbers = numbers.map(function(num){
+  return num  * 2
+})
+
+console.log(doubledNumbers) //[4, 8, 12, 16]
 ```
 
 ## element.insertAdjacentHTML()
