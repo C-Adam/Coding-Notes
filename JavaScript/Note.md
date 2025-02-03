@@ -953,7 +953,10 @@ const balance = movements.reduce(function (acc, curr, i) {
 console.log(balance) //3840
 
 //-------------------------------array.push()------------------------------------------
-array.push(item) //adds the item to the last index in the array AND returns the new length of the array if stored in a variable.
+//adds the item to the last index in the array AND returns the new length of the array if stored in a variable.
+let x = [1, 2, 3, 4, 5]
+x.push(6)
+console.log(x) //[1, 2, 3, 4, 5, 6]
 
 //-------------------------------array.shift()------------------------------------------
 array.shift(item) //removes the first index of the array and returns the value if stored in a variable.
