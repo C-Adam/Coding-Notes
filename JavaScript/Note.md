@@ -939,9 +939,29 @@ const doubledNumbers = numbers.map(function(num){
 console.log(doubledNumbers) //[4, 8, 12, 16]
 
 //-------------------------------array.filter()------------------------------------------
-//
+//Returns a new array that contains elements that passed a certain condition.
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
+const deposits = movements.filter(function (mov) {
+  return mov > 0;
+});
 
+console.log(deposits); //[200, 450, 3000, 70, 1300]
+
+//-------------------------------array.reduce()------------------------------------------
+//Boils all array elements down to one single value (i.e. adding all elements together)
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+const balance = movements.reduce(function (acc, curr, i) {
+  console.log(`Iteration ${i}: acc: ${acc}, curr: ${curr}`)
+  /*
+  Iteration 1: acc: 200, curr: 450
+  Iteration 2: acc: 650, curr: -400 --450 + 200 = 650
+  */
+  return acc + curr;
+});
+
+console.log(balance) //3840
 ```
 
 ## element.insertAdjacentHTML()
